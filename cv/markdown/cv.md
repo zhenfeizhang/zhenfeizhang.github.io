@@ -16,11 +16,11 @@ Hangzhou, China             https://www.linkedin.com/in/zhenfeizhang/
 Experience
 ----------
 
-**Senior Security Expert**, _Ant Group_, 2020-now
+**CTO and co-funder**, _Manta Network_, 2021.1-now
 
+**Senior Security Expert**, _Ant Group_, 2020.11-2021.1
 
-
-**Cryptography Engineer**, _Algorand_, 2018-2020
+**Cryptography Engineer**, _Algorand_, 2018.10-2020.10
 
 Identify, develop and standardize cryptographic tools to be used
 by Algorand blockchain protocol.
@@ -208,8 +208,30 @@ See next pages for the full list of patents, standards and publications.
   * _Muhammed F. Esgin and Veronika Kuchta and Amin Sakzad and Ron Steinfeld and Zhenfei Zhang and Shifeng Sun and Shumo Chu_
   * Financial Cryptography 2021. [IACR eprint](https://eprint.iacr.org/2020/1222).  [Source code](https://github.com/zhenfeizhang/lb-vrf).
 
+* __Post-Quantum Verifiable Random Function from Symmetric Primitives in PoS Blockchain__
+  * _Maxime Buser and Rafael Dowsley and Muhammed F. Esgin and Shabnam Kasra Kermanshahi and Veronika Kuchta and Joseph K. Liu and Raphael Phan and Zhenfei Zhang_
+  * Pre-print. [IACR eprint](https://eprint.iacr.org/2021/302).
+
+* __TensorCrypto__
+  * Wai-Kong Lee, Hwajeong Seo, Zhenfei Zhang and Seongoun Hwang
+  * Pre-print. [IACR eprint](https://eprint.iacr.org/2021/173). [Source code](https://github.com/benlwk/Tensorcrypto).
+ 
+* __Hybrid Dual Attack on LWE with Arbitrary Secrets__
+  * _Lei Bi, Xianhui Lu, Junjie Luo, Kunpeng Wang and Zhenfei Zhang_
+  * Pre-print. [IACR eprint](https://www.iacr.org/news/item/15521). [Estimator](https://github.com/BiLei121/hybrid-dual-estimator).
+
+* __ZEN: Efficient Zero-Knowledge Proofs for Neural Networks__
+  * _Boyuan Feng, Lianke Qin, Zhenfei Zhang, Yufei Ding, Shumo Chu_
+  * Pre-print. [IACR eprint](https://eprint.iacr.org/2021/087). [Source code](https://github.com/UCSB-TDS/ZEN).
+
 2020
 -------
+
+* __Manta: Privacy Preserving Decentralized Exchange__
+  * _Shumo Chu, Qiudong Xia, Zhenfei Zhang_
+  * Pre-print. [IACR eprint](https://eprint.iacr.org/2020/1607). [Github](https://github.com/Manta-Network/).
+  * Check out the [__Manta Project__](https://manta.network) that spinned off from this paper.
+
 
 * __Pointproofs: Aggregating Proofs for Multiple Vector Commitments__
   * _Sergey Gorbunov, Leonid Reyzin, Hoeteck Wee, Zhenfei Zhang_
