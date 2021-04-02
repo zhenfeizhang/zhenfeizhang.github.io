@@ -31,7 +31,7 @@ title: Publications
 * __Manta: Privacy Preserving Decentralized Exchange__
   * _Shumo Chu, Qiudong Xia, Zhenfei Zhang_
   * Pre-print. [IACR eprint](https://eprint.iacr.org/2020/1607). [Github](https://github.com/Manta-Network/).
-  * Check out the [__Manta Project__](https://manta.network) that spins off from this paper.
+  * Check out the [__Manta Project__](https://manta.network) that spinned off from this paper.
 
 * __Pointproofs: Aggregating Proofs for Multiple Vector Commitments__
   * _Sergey Gorbunov, Leonid Reyzin, Hoeteck Wee, Zhenfei Zhang_
