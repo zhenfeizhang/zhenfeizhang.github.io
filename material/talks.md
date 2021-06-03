@@ -3,6 +3,9 @@ layout: page
 title: Talks
 ---
 
+* [__An introduction of zero knowledge proofs__](../../talks/05-28-schnorr-zz.pdf)
+  * Introducing ZKP to engineers and non-cryptographers, May 2021.
+
 * [__Algorand in QuantumLand__](../../talks/Algorand_in_QuantumLand.pdf)
   * A non-tech talk to raise the awareness of quantum risks of blockchains, Aug 2020.
 
