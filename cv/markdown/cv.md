@@ -6,15 +6,17 @@ templates credit: https://mszep.github.io/pandoc_resume/
 Zhenfei Zhang
 ============
 
--------------------         ----------------------------
-Cryptographer               zhenfei.zhang@hotmail.com
-Ant Group                   https://zhenfeizhang.github.io/
-Hangzhou, China             https://www.linkedin.com/in/zhenfeizhang/
--------------------         ----------------------------
+-------------------                             ----------------------------
+Cryptographer                                   zhenfei.zhang@hotmail.com
+Ethereum Foundation _and_ Manta Network           https://zhenfeizhang.github.io/
+                                                https://www.linkedin.com/in/zhenfeizhang/
+-------------------                             ----------------------------
 
 
 Experience
 ----------
+
+**Cryptographer**, Ethereum Foundation, 2021.6-now
 
 **CTO and co-funder**, _Manta Network_, 2021.1-now
 
@@ -29,7 +31,7 @@ by Algorand blockchain protocol.
 
 * Coding:
 Product level __Rust__ code, for examples:
-  [Pixel aggregatable signature](https://github.com/algorand/pixel),
+  [Pixel signature](https://github.com/algorand/pixel),
   [BLS signature](https://github.com/algorand/bls_sigs_ref),
   [Pointproofs](https://github.com/algorand/pointproofs).
 
@@ -60,11 +62,11 @@ Publication and patents
 
 
 Programming Languages
-:   **Rust**: Cryptographic library at product level.
+:   **Rust**: Cryptographic library at product level; blockchain products.
 
 :   **C**: Cryptographic library, nearly product level code.
 
-:   **Python/Sage**: 	Proof of concept codes.
+:   **Python/Sage**: Proof of concept codes.
 
 
 <div style="page-break-after: always; visibility: hidden">
@@ -74,6 +76,11 @@ Programming Languages
 
 Software
 --------------------
+Manta
+: A privacy preserving decentralized exchange protocol using zkSNARKs; also a parachain build on top of the polkadot ecosystem. [Source code](https://github.com/Manta-Network).
+
+Zen
+: A privacy preserving machine learning framework for convolutional neural networks, build with zkSNARKs. [Source code](https://github.com/UCSB-TDS/ZEN).
 
 Pixel
 : A pairing based, forward-secure and aggregatable signature, written in python (PoC) and rust (product level). Improves existing (non-aggregatable) solution by 100x,
@@ -204,6 +211,11 @@ See next pages for the full list of patents, standards and publications.
 
 2021
 -------
+* __Manta: a Plug and Play Private DeFi Stack__
+  * _Shumo Chu and Yu Xia and Zhenfei Zhang_
+  * Pre-print. [IACR eprint](https://eprint.iacr.org/2021/743). [Source code](https://github.com/Manta-Network/).
+  * Check out the [__Manta Project__](https://manta.network) that spinned off from this paper.
+
 * __Practical Post-Quantum Few-Time Verifiable Random Function with Applications to Algorand__
   * _Muhammed F. Esgin and Veronika Kuchta and Amin Sakzad and Ron Steinfeld and Zhenfei Zhang and Shifeng Sun and Shumo Chu_
   * Financial Cryptography 2021. [IACR eprint](https://eprint.iacr.org/2020/1222).  [Source code](https://github.com/zhenfeizhang/lb-vrf).
@@ -230,9 +242,7 @@ See next pages for the full list of patents, standards and publications.
 * __Manta: Privacy Preserving Decentralized Exchange__
   * _Shumo Chu, Qiudong Xia, Zhenfei Zhang_
   * Pre-print. [IACR eprint](https://eprint.iacr.org/2020/1607). [Github](https://github.com/Manta-Network/).
-  * Check out the [__Manta Project__](https://manta.network) that spinned off from this paper.
-
-
+  
 * __Pointproofs: Aggregating Proofs for Multiple Vector Commitments__
   * _Sergey Gorbunov, Leonid Reyzin, Hoeteck Wee, Zhenfei Zhang_
   * ACM CCS 2020. [IACR eprint](https://eprint.iacr.org/2020/419). [Source code](https://github.com/algorand/pointproofs).

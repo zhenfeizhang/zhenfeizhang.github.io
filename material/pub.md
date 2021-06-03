@@ -5,6 +5,11 @@ title: Publications
 
 2021
 -------
+* __Manta: a Plug and Play Private DeFi Stack__
+  * _Shumo Chu and Yu Xia and Zhenfei Zhang_
+  * [IACR eprint](https://eprint.iacr.org/2021/743). [Github](https://github.com/Manta-Network/).
+  * Check out the [__Manta Project__](https://manta.network) that spinned off from this paper.
+
 * __Practical Post-Quantum Few-Time Verifiable Random Function with Applications to Algorand__
   * _Muhammed F. Esgin and Veronika Kuchta and Amin Sakzad and Ron Steinfeld and Zhenfei Zhang and Shifeng Sun and Shumo Chu_
   * Financial Cryptography 2021. [IACR eprint](https://eprint.iacr.org/2020/1222). [Source code](https://github.com/zhenfeizhang/lb-vrf).
@@ -31,7 +36,6 @@ title: Publications
 * __Manta: Privacy Preserving Decentralized Exchange__
   * _Shumo Chu, Qiudong Xia, Zhenfei Zhang_
   * Pre-print. [IACR eprint](https://eprint.iacr.org/2020/1607). [Github](https://github.com/Manta-Network/).
-  * Check out the [__Manta Project__](https://manta.network) that spinned off from this paper.
 
 * __Pointproofs: Aggregating Proofs for Multiple Vector Commitments__
   * _Sergey Gorbunov, Leonid Reyzin, Hoeteck Wee, Zhenfei Zhang_
