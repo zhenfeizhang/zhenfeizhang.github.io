@@ -16,9 +16,9 @@ Ethereum Foundation _and_ Manta Network           https://zhenfeizhang.github.io
 Experience
 ----------
 
-**Cryptographer**, Ethereum Foundation, 2021.6-now
+**Cryptographer**, _Ethereum Foundation_, 2021.6-now
 
-**CTO and co-funder**, _Manta Network_, 2021.1-now
+**CTO and co-founder**, _Manta Network_, 2021.1-now
 
 **Senior Security Expert**, _Ant Group_, 2020.11-2021.1
 
