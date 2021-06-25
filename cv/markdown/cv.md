@@ -18,55 +18,60 @@ Experience
 
 **Cryptographer**, _Ethereum Foundation_, 2021.6-now
 
+Building post-quantum ethereum.
+
 **CTO and co-founder**, _Manta Network_, 2021.1-now
 
+Building privacy preserving decentralized exchange blockchain.
+
 **Senior Security Expert**, _Ant Group_, 2020.11-2021.1
+
+Leading the cryptography team.
 
 **Cryptography Engineer**, _Algorand_, 2018.10-2020.10
 
 Identify, develop and standardize cryptographic tools to be used
 by Algorand blockchain protocol.
 
-* Design: Identify suitable cryptography for Algorand blockchain;
 
-* Coding:
-Product level __Rust__ code, for examples:
+
+* Product level __Rust__ code:
   [Pixel signature](https://github.com/algorand/pixel),
   [BLS signature](https://github.com/algorand/bls_sigs_ref),
   [Pointproofs](https://github.com/algorand/pointproofs).
 
-* Standardization:
-[Internet draft](https://datatracker.ietf.org/doc/draft-irtf-cfrg-bls-signature/) for BLS signature scheme, IETF/CFRG working group.
+* Standards:
+[Internet draft](https://datatracker.ietf.org/doc/draft-irtf-cfrg-bls-signature/) for BLS signature scheme.
 
 **Director of Cryptography Research**, _Security Innovation_ -> _OnBoard Security_, 2014-2018
-
-* Homomorphic encryptions (IARPA project);
-* Post-quantum cryptography;
-* blockchain cryptography.
 
 Highlights
 --------------------
 
+Unique skill
+: hands-on experience of the whole lifecycle: 
+: Eureka -> academic paper -> spec -> standard -> code -> product
+
 Standards
-: Contribute to **2** out of 7 finalists of NIST's [post-quantum standardization process](https://csrc.nist.gov/projects/post-quantum-cryptography/round-3-submissions):
+: Contribute to **2** out of 7 finalists of NIST's [post-quantum cryptography standardization process](https://csrc.nist.gov/projects/post-quantum-cryptography/round-3-submissions):
 [Falcon](https://falcon-sign.info/) and [NTRU](https://ntru.org).
 : [LAC](https://eprint.iacr.org/2018/1009) won the first prize of [Chinese post-quantum cryptography competition](https://www.cacrnet.org.cn/site/content/854.html).
-: Internet draft: [BLS-signature](https://datatracker.ietf.org/doc/draft-irtf-cfrg-bls-signature/), Quantum safe hybrid for [TLS 1.2](https://datatracker.ietf.org/doc/draft-whyte-qsh-tls12/) and [TLS 1.3](https://datatracker.ietf.org/doc/draft-whyte-qsh-tls13/).
-: Former member of ETSI [Quantum-safe Cryptography (QSC)](https://www.etsi.org/technologies/quantum-safe-cryptography)  working group.
-: Former member of [ISO/SC27](https://www.iso.org/committee/45306.html) working group.
+: Internet draft: [BLS-signature](https://datatracker.ietf.org/doc/draft-irtf-cfrg-bls-signature/), Quantum safe hybrid for [TLS 1.2](https://datatracker.ietf.org/doc/draft-whyte-qsh-tls12/) and [TLS 1.3](https://datatracker.ietf.org/doc/draft-whyte-qsh-tls13/).
+<!-- : Former member of ETSI [Quantum-safe Cryptography (QSC)](https://www.etsi.org/technologies/quantum-safe-cryptography)  working group.
+: Former member of [ISO/SC27](https://www.iso.org/committee/45306.html) working group. -->
 
 
 Publication and patents
-: __3__ U.S. patents; __25+__ peer reviewed paper at ACM CCS 2020, PKC 2020, Asiacrypt 2019, Crypto 2019, Asiacrypt 2018, PKC 2018, IEEE Transaction on Computers, etc.;
-: See next pages for full list.
+: __3__ U.S. patents; __25+__ peer reviewed paper at ACM CCS 2020, PKC 2020, Asiacrypt 2019, Crypto 2019, Asiacrypt 2018, PKC 2018, etc.;
+: See next pages for full list.
 
-
+<!-- 
 Programming Languages
 :   **Rust**: Cryptographic library at product level; blockchain products.
 
 :   **C**: Cryptographic library, nearly product level code.
 
-:   **Python/Sage**: Proof of concept codes.
+:   **Python/Sage**: Proof of concept codes. -->
 
 
 <div style="page-break-after: always; visibility: hidden">
