@@ -33,8 +33,6 @@ Leading the cryptography team.
 Identify, develop and standardize cryptographic tools to be used
 by Algorand blockchain protocol.
 
-
-
 * Product level __Rust__ code:
   [Pixel signature](https://github.com/algorand/pixel),
   [BLS signature](https://github.com/algorand/bls_sigs_ref),
@@ -50,16 +48,14 @@ Highlights
 
 Unique skill
 : hands-on experience of the whole lifecycle: 
-: Eureka -> academic paper -> spec -> standard -> code -> product
+: Eureka -> academic paper -> spec -> poc -> standard -> code -> product
 
 Standards
 : Contribute to **2** out of 7 finalists of NIST's [post-quantum cryptography standardization process](https://csrc.nist.gov/projects/post-quantum-cryptography/round-3-submissions):
 [Falcon](https://falcon-sign.info/) and [NTRU](https://ntru.org).
 : [LAC](https://eprint.iacr.org/2018/1009) won the first prize of [Chinese post-quantum cryptography competition](https://www.cacrnet.org.cn/site/content/854.html).
-: Internet draft: [BLS-signature](https://datatracker.ietf.org/doc/draft-irtf-cfrg-bls-signature/), Quantum safe hybrid for [TLS 1.2](https://datatracker.ietf.org/doc/draft-whyte-qsh-tls12/) and [TLS 1.3](https://datatracker.ietf.org/doc/draft-whyte-qsh-tls13/).
-<!-- : Former member of ETSI [Quantum-safe Cryptography (QSC)](https://www.etsi.org/technologies/quantum-safe-cryptography)  working group.
-: Former member of [ISO/SC27](https://www.iso.org/committee/45306.html) working group. -->
-
+: Internet draft: [BLS-signature](https://datatracker.ietf.org/doc/draft-irtf-cfrg-bls-signature/) (_"Ethereum 2.0 is not possible without BLS"_)
+: Internet draft: Quantum safe hybrid for [TLS 1.2](https://datatracker.ietf.org/doc/draft-whyte-qsh-tls12/) and [TLS 1.3](https://datatracker.ietf.org/doc/draft-whyte-qsh-tls13/).
 
 Publication and patents
 : __3__ U.S. patents; __25+__ peer reviewed paper at ACM CCS 2020, PKC 2020, Asiacrypt 2019, Crypto 2019, Asiacrypt 2018, PKC 2018, etc.;
