@@ -21,6 +21,6 @@ My [Erdos number](https://en.wikipedia.org/wiki/List_of_people_by_Erdős_number)
 
 You may find a [CV](../cv/output/cv.pdf) and
 [highlights of projects](https://zhenfeizhang.github.io/material/projects/) that I worked on;
-last update April 2021.
+last update Jun 2021.
 
-I have openings ([angel list](https://angel.co/company/manta-network/jobs/1182625-protocol-and-backend-engineers), [linkedin](https://www.linkedin.com/jobs/view/2460670356/)) for cryptographic engineers. 
+<!-- I have openings ([angel list](https://angel.co/company/manta-network/jobs/1182625-protocol-and-backend-engineers), [linkedin](https://www.linkedin.com/jobs/view/2460670356/)) for cryptographic engineers.  -->
