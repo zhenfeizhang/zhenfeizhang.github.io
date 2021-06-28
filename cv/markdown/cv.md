@@ -18,7 +18,7 @@ Experience
 
 **Cryptographer**, _Ethereum Foundation_, 2021.6-now
 
-Building post-quantum ethereum.
+Building ethereum 3.0.
 
 **CTO and co-founder**, _Manta Network_, 2021.1-now
 
