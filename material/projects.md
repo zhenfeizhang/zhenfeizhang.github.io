@@ -8,6 +8,10 @@ title: Highlight of projects
   - [github](https://github.com/UCSB-TDS/ZEN), [paper](https://eprint.iacr.org/2021/087)
   
 # Blockchain cryptography
+
+- Bandersantch curve
+  - [orignal post](https://ethresear.ch/t/introducing-bandersnatch-a-fast-elliptic-curve-built-over-the-bls12-381-scalar-field/9957), [github](https://github.com/zhenfeizhang/bandersnatch).
+
 - Manta: Privacy Preserving Decentralized Exchange
   - [website](https://manta.network), [github](https://github.com/Manta-Network), [paper](https://eprint.iacr.org/2020/1607)
   - found raising [press](https://www.theblockcrypto.com/linked/93365/polychain-privacy-dex-manta-seed)
