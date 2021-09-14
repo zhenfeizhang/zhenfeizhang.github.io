@@ -5,6 +5,10 @@ title: Publications
 
 2021
 -------
+* __Bandersnatch: a fast elliptic curve built over the BLS12-381 scalar field__
+  * Simon Masson, Antonio Sanso and Zhenfei Zhang
+  * [IACR eprint](https://eprint.iacr.org/2021/1152). [Github](https://github.com/zhenfeizhang/bandersnatch).
+
 * __Manta: a Plug and Play Private DeFi Stack__
   * _Shumo Chu and Yu Xia and Zhenfei Zhang_
   * [IACR eprint](https://eprint.iacr.org/2021/743). [Github](https://github.com/Manta-Network/).
