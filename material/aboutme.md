@@ -3,9 +3,11 @@ layout: page
 title: About me
 ---
 
-I am a cryptographer and co-founder at [Manta Network](https://manta.network).
-I am also a member of the [Ethereum Foundation](https://ethereum.foundation) cryptography research team.
-Prior to that, I worked for [Ant Group](https://www.ant-group.com), [Algorand](https://algorand.com),
+
+I am a cryptography researcher of the [Ethereum Foundation](https://ethereum.foundation).
+Prior to that,
+I was a co-founder and the CTO of [Manta network](https://manta.network/); 
+I worked for [Ant Group](https://www.ant-group.com), [Algorand](https://algorand.com),
 and [OnBoard Security Inc](https://www.onboardsecurity.com/).
 I received my Ph.D. from
 [University of Wollongong](https://www.uow.edu.au/) in 2014.
