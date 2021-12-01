@@ -7,8 +7,8 @@ Zhenfei Zhang
 ============
 
 -------------------                             ----------------------------
-Cryptographer                                   zhenfei.zhang@hotmail.com
-Ethereum Foundation _and_ Manta Network           https://zhenfeizhang.github.io/
+Cryptographer, Rust developer                                   zhenfei.zhang@hotmail.com
+                                                https://zhenfeizhang.github.io/
                                                 https://www.linkedin.com/in/zhenfeizhang/
 -------------------                             ----------------------------
 
@@ -16,13 +16,17 @@ Ethereum Foundation _and_ Manta Network           https://zhenfeizhang.github.io
 Experience
 ----------
 
-**Cryptographer**, _Ethereum Foundation_, 2021.6-now
+**Staff cryptographer**, _Stealth Startup_, 2021.7-now
 
-Building ethereum 3.0.
+- Building new infrastructure for ZKP.
 
-**CTO and co-founder**, _Manta Network_, 2021.1-now
+**Cryptography researcher**, _Ethereum Foundation_, 2021.6-now
 
-Building privacy preserving decentralized exchange blockchain.
+- Building Ethereum 3.0.
+
+**CTO and co-founder**, _Manta Network_, 2021.1-2021.7
+
+- Building privacy preserving decentralized exchange blockchain.
 
 **Senior Security Expert**, _Ant Group_, 2020.11-2021.1
 
@@ -46,8 +50,8 @@ by Algorand blockchain protocol.
 Highlights
 --------------------
 
-Unique skill
-: hands-on experience of the whole lifecycle: 
+Unique skill set
+: _full stack cryptographer_: 
 : Eureka -> academic paper -> spec -> poc -> standard -> code -> product
 
 Standards
@@ -58,7 +62,7 @@ Standards
 : Internet draft: Quantum safe hybrid for [TLS 1.2](https://datatracker.ietf.org/doc/draft-whyte-qsh-tls12/) and [TLS 1.3](https://datatracker.ietf.org/doc/draft-whyte-qsh-tls13/).
 
 Publication and patents
-: __3__ U.S. patents; __25+__ peer reviewed paper at ACM CCS 2020, PKC 2020, Asiacrypt 2019, Crypto 2019, Asiacrypt 2018, PKC 2018, etc.;
+: __3__ U.S. patents; __30+__ peer reviewed paper at ACM CCS 2020, PKC 2020, Asiacrypt 2019, Crypto 2019, Asiacrypt 2018, PKC 2018, etc.;
 : See next pages for full list.
 
 <!-- 
@@ -75,8 +79,15 @@ Programming Languages
 </div>
 
 
-Software
+Open sourced libraries
 --------------------
+Falcon-R1CS
+: R1CS implementation for the post-quantum falcon signature. [Source code](https://github.com/zhenfeizhang/falcon-rust).
+
+
+Bandersnatch
+: a fast elliptic curve built over the BLS12-381 scalar field; build with Arkworks framework; improves group operations by 42%; reduces R1CS size by 20%; reduce Plonk circuit size by 10%. [Source code](https://github.com/zhenfeizhang/bandersnatch).
+
 Manta
 : A privacy preserving decentralized exchange protocol using zkSNARKs; also a parachain build on top of the polkadot ecosystem. [Source code](https://github.com/Manta-Network).
 
@@ -212,6 +223,11 @@ See next pages for the full list of patents, standards and publications.
 
 2021
 -------
+* __Bandersnatch: a fast elliptic curve built over the BLS12-381 scalar field__
+  * _Simon Masson, Antonio Sanso and Zhenfei Zhang_
+  * Pre-print. [IACR eprint](https://eprint.iacr.org/2021/1152). [Github](https://github.com/zhenfeizhang/bandersnatch).
+
+
 * __Manta: a Plug and Play Private DeFi Stack__
   * _Shumo Chu and Yu Xia and Zhenfei Zhang_
   * Pre-print. [IACR eprint](https://eprint.iacr.org/2021/743). [Source code](https://github.com/Manta-Network/).
