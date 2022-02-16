@@ -23,7 +23,7 @@ title: Highlight of projects
   - [github](https://github.com/SpectrumXYZ/jellyfish)
 
 - Bandersantch curve
-  - [orignal post](https://ethresear.ch/t/introducing-bandersnatch-a-fast-elliptic-curve-built-over-the-bls12-381-scalar-field/9957), [github](https://github.com/zhenfeizhang/bandersnatch).
+  - [original post](https://ethresear.ch/t/introducing-bandersnatch-a-fast-elliptic-curve-built-over-the-bls12-381-scalar-field/9957), [github](https://github.com/zhenfeizhang/bandersnatch).
 
 - Manta: Privacy Preserving Decentralized Exchange
   - [website](https://manta.network), [github](https://github.com/Manta-Network), [paper](https://eprint.iacr.org/2020/1607)
