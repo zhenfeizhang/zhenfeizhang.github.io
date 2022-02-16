@@ -19,6 +19,9 @@ title: Highlight of projects
 
 # Blockchain cryptography
 
+- Jellyfish: a rust implementation of plonk zero-knowledge proof system 
+  - [github](https://github.com/SpectrumXYZ/jellyfish)
+
 - Bandersantch curve
   - [orignal post](https://ethresear.ch/t/introducing-bandersnatch-a-fast-elliptic-curve-built-over-the-bls12-381-scalar-field/9957), [github](https://github.com/zhenfeizhang/bandersnatch).
 
