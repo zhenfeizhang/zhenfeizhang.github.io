@@ -5,7 +5,7 @@ title: About me
 
 
 I am a cryptography researcher of the [Ethereum Foundation](https://ethereum.foundation), and 
-a cryptography engineer at a stealth startup.
+a staff cryptography engineer at a stealth startup.
 Prior to that,
 I was a co-founder and the CTO of [Manta network](https://manta.network/); 
 I worked for [Ant Group](https://www.ant-group.com), [Algorand](https://algorand.com),

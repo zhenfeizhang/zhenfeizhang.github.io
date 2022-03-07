@@ -81,6 +81,10 @@ Programming Languages
 
 Open sourced libraries
 --------------------
+Jellyfish
+: a rust implementation of plonk zero-knowledge proof system. [Source code](https://github.com/SpectrumXYZ/jellyfish). Also comes with a [solidity verifier](https://.github.com/EspressoSystems/cape/tree/main/contracts/contracts/verifier).
+
+
 Falcon-R1CS
 : R1CS implementation for the post-quantum falcon signature. [Source code](https://github.com/zhenfeizhang/falcon-rust).
 
@@ -112,10 +116,10 @@ Ring multiplication
 : A C library for fast ring multiplication using AVX-2; improving
 prior codes by
 a factor of 2.23. [Source code](https://github.com/zhenfeizhang/polynomial_mul)
-
+<!-- 
 libgcrypt-ntru
 : Enabling NTRUEncrypt for libgcrypt. [Source code](https://github.com/zhenfeizhang/libgcrypt-ntru).
-
+ -->
 
 
 Education

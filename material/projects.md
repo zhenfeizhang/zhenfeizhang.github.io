@@ -20,7 +20,8 @@ title: Highlight of projects
 # Blockchain cryptography
 
 - Jellyfish: a rust implementation of plonk zero-knowledge proof system 
-  - [github](https://github.com/SpectrumXYZ/jellyfish)
+  - [github](https://github.com/SpectrumXYZ/jellyfish): currently the most feature-complete and fastest open-source implementation of PLONK;
+  - also comes with a [solidity verifier](https://.github.com/EspressoSystems/cape/tree/main/contracts/contracts/verifier)
 
 - Bandersantch curve
   - [original post](https://ethresear.ch/t/introducing-bandersnatch-a-fast-elliptic-curve-built-over-the-bls12-381-scalar-field/9957), [github](https://github.com/zhenfeizhang/bandersnatch).
