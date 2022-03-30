@@ -3,7 +3,7 @@ layout: page
 title: Selected Publications
 ---
 
-[Full list](https://zhenfeizhang.github.io/material/pub_full/)
+For a full list of publications, see [here](https://zhenfeizhang.github.io/material/pub_full/)
 
 * __Post-Quantum Verifiable Random Function from Symmetric Primitives in PoS Blockchain__
   * _Maxime Buser and Rafael Dowsley and Muhammed F. Esgin and Shabnam Kasra Kermanshahi and Veronika Kuchta and Joseph K. Liu and Raphael Phan and Zhenfei Zhang_
