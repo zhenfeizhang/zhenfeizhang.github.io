@@ -9,14 +9,14 @@ title: Highlight of projects
   
 # Blockchain x Post-quantum Crypto
 
-- Efficient Synchronized Multi-Signatures from Lattices
-  - [Github](https://github.com/zhenfeizhang/sync_multi_sig)
+- Signature for consensus:
+  - Efficient Synchronized Multi-Signatures from Lattices: [Github](https://github.com/zhenfeizhang/sync_multi_sig)
 
-- Verifiable random functions
+- Verifiable random functions for consensus
   - Lattice based construction: [github](https://github.com/zhenfeizhang/lb-vrf), [paper](https://eprint.iacr.org/2020/1222)
   - Hash based construction: [paper](https://eprint.iacr.org/2021/302)
 
-- Signatures
+- Signatures for authentication
   - Raptor signature: [github](https://github.com/zhenfeizhang/raptor), [paper](https://eprint.iacr.org/2018/857)
   - Falcon signature: [Falcon-rust](https://github.com/zhenfeizhang/falcon-rust), [Falcon-r1cs](https://github.com/zhenfeizhang/falcon-r1cs).
 
