@@ -3,6 +3,18 @@ layout: page
 title: Publications
 ---
 
+2022
+------- 
+
+* __Efficient Synchronized Multi-Signatures from Lattices__
+  * _Nils Fleischhacker, Mark Simkin and Zhenfei Zhang_
+  * Preprint. [Github](https://github.com/zhenfeizhang/sync_multi_sig).
+
+* __Post-Quantum Verifiable Random Function from Symmetric Primitives in PoS Blockchain__
+  * _Maxime Buser and Rafael Dowsley and Muhammed F. Esgin and Shabnam Kasra Kermanshahi and Veronika Kuchta and Joseph K. Liu and Raphael Phan and Zhenfei Zhang_
+  * ESORICS 2022. [IACR eprint](https://eprint.iacr.org/2021/302).
+
+
 2021
 -------
 * __Bandersnatch: a fast elliptic curve built over the BLS12-381 scalar field__
@@ -17,10 +29,6 @@ title: Publications
 * __Practical Post-Quantum Few-Time Verifiable Random Function with Applications to Algorand__
   * _Muhammed F. Esgin and Veronika Kuchta and Amin Sakzad and Ron Steinfeld and Zhenfei Zhang and Shifeng Sun and Shumo Chu_
   * Financial Cryptography 2021. [IACR eprint](https://eprint.iacr.org/2020/1222). [Source code](https://github.com/zhenfeizhang/lb-vrf).
-
-* __Post-Quantum Verifiable Random Function from Symmetric Primitives in PoS Blockchain__
-  * _Maxime Buser and Rafael Dowsley and Muhammed F. Esgin and Shabnam Kasra Kermanshahi and Veronika Kuchta and Joseph K. Liu and Raphael Phan and Zhenfei Zhang_
-  * Pre-print. [IACR eprint](https://eprint.iacr.org/2021/302).
 
 * __TensorCrypto__
   * Wai-Kong Lee, Hwajeong Seo, Zhenfei Zhang and Seongoun Hwang
@@ -122,7 +130,7 @@ title: Publications
   * _Yarkin Doröz, Jeffrey Hoffstein, Jill Pipher, Joseph H. Silverman, Berk Sunar, William Whyte, Zhenfei Zhang:_
   * PKC 2018. [IACR eprint](https://eprint.iacr.org/2017/548).
 
-2017
+2017 and earlier
 ------------------------
 * __Choosing parameters for NTRUEncrypt__
   * _Jeffrey Hoffstein, Jill Pipher, John M. Schanck, Joseph H. Silverman, William Whyte, Zhenfei Zhang_
@@ -140,8 +148,6 @@ title: Publications
   * _Man Ho Au, Joseph K. Liu, Zhenfei Zhang, Willy Susilo, Jin Li_
   * The Computer Journal. [Manuscript](../../pdf/aas.pdf).
 
-2016
----------------
 * __Circuit-extension handshakes for Tor achieving forward secrecy in a quantum world.__
   * _John M. Schanck, William Whyte, Zhenfei Zhang_
   * PoPETs 2016. [IACR eprint](https://eprint.iacr.org/2015/287), [Tor feature request](https://gitweb.torproject.org/torspec.git/tree/proposals/269-hybrid-handshake.txt), [Source code](https://github.com/NTRUOpenSourceProject/ntru-tor), [Slides](../../talks/ntrutor.pdf).
@@ -149,10 +155,6 @@ title: Publications
 * __NTRU modular lattice signature scheme on CUDA GPUs.__
   * _Wei Dai, Berk Sunar, John M. Schanck, William Whyte, Zhenfei Zhang_
   * HPCS 2016. [IACR eprint](https://eprint.iacr.org/2016/471).
-
-
-2015 and earlier
---------------------
 
 * __LLL for ideal lattices: re-evaluation of the security of Gentry-Halevi's FHE scheme.__
   * _Thomas Plantard, Willy Susilo, Zhenfei Zhang_
