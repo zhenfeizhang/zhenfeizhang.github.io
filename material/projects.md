@@ -10,7 +10,7 @@ title: Highlight of projects
 # Blockchain x Post-quantum Crypto
 
 - Signature for consensus:
-  - Efficient Synchronized Multi-Signatures from Lattices: [Github](https://github.com/zhenfeizhang/sync_multi_sig)
+  - Efficient Synchronized Multi-Signatures from Lattices: [github](https://github.com/zhenfeizhang/sync_multi_sig)
 
 - Verifiable random functions for consensus
   - Lattice based construction: [github](https://github.com/zhenfeizhang/lb-vrf), [paper](https://eprint.iacr.org/2020/1222)
@@ -21,24 +21,21 @@ title: Highlight of projects
   - Falcon signature: [Falcon-rust](https://github.com/zhenfeizhang/falcon-rust), [Falcon-r1cs](https://github.com/zhenfeizhang/falcon-r1cs).
 
 # Blockchain cryptography
-
-- Jellyfish: a rust implementation of plonk zero-knowledge proof system 
-  - [github](https://github.com/SpectrumXYZ/jellyfish): currently the most feature-complete and fastest open-source implementation of PLONK;
-  - also comes with a [solidity verifier](https://.github.com/EspressoSystems/cape/tree/main/contracts/contracts/verifier)
-
-- Bandersantch curve
-  - [original post](https://ethresear.ch/t/introducing-bandersnatch-a-fast-elliptic-curve-built-over-the-bls12-381-scalar-field/9957), [github](https://github.com/zhenfeizhang/bandersnatch).
-
-- Manta: Privacy Preserving Decentralized Exchange
-  - [website](https://manta.network), [github](https://github.com/Manta-Network), [paper](https://eprint.iacr.org/2020/1607)
-  - found raising [press](https://www.theblockcrypto.com/linked/93365/polychain-privacy-dex-manta-seed)
+- ZKP architecture and applications
+  - Jellyfish: a rust implementation of __PLONK__ zero-knowledge proof system 
+    - the most feature-complete and fastest open-source implementation of PLONK;
+    - [github](https://github.com/SpectrumXYZ/jellyfish), [press](https://www.espressosys.com/blog/introducing-the-jellyfish-cryptography-library)
+    - also comes with a [solidity verifier](https://.github.com/EspressoSystems/cape/tree/main/contracts/contracts/verifier)
+  - Manta: Privacy Preserving Decentralized Exchange
+    - [website](https://manta.network), [github](https://github.com/Manta-Network), [paper](https://eprint.iacr.org/2020/1607), [press](https://www.theblockcrypto.com/linked/93365/polychain-privacy-dex-manta-seed)
+  - Pointproofs: [github](https://github.com/algorand/pointproofs), [paper](https://eprint.iacr.org/2020/419), [press](https://www.algorand.com/resources/blog/pointproofs)
 
 - Signatures
   - BLS signature: [github](https://github.com/algorand/bls_sigs_ref), [crate.io](https://crates.io/crates/bls_sigs_ref), [Internet-Draft](https://tools.ietf.org/html/draft-boneh-bls-signature-00), [press](https://www.algorand.com/resources/blog/first-release-bls-library)
   - Pixel signature: [github](https://github.com/algorand/pixel), [press](https://medium.com/algorand/digital-signatures-for-blockchains-5820e15fbe95)
 
-- Proof systems
-  - Pointproofs: [github](https://github.com/algorand/pointproofs), [paper](https://eprint.iacr.org/2020/419), [press](https://www.algorand.com/resources/blog/pointproofs)
+- Curves
+  - Bandersantch curve: [original post](https://ethresear.ch/t/introducing-bandersnatch-a-fast-elliptic-curve-built-over-the-bls12-381-scalar-field/9957), [github](https://github.com/zhenfeizhang/bandersnatch).
 
 # NIST post-quantum cryptography
 - 3nd round finalists
