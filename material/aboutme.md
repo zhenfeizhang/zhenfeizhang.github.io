@@ -4,7 +4,7 @@ title: About me
 ---
 
 
-I am a cryptography researcher of the [Ethereum Foundation](https://ethereum.foundation), and 
+I am a cryptography researcher of the [Ethereum Foundation](https://crypto.ethereum.org/team), and 
 a staff cryptography engineer at a stealth startup.
 Prior to that,
 I was a co-founder and the CTO of [Manta network](https://manta.network/); 
