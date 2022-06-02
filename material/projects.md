@@ -10,7 +10,7 @@ title: Highlight of projects
 # Blockchain x Post-quantum Crypto
 
 - Signature for consensus:
-  - Efficient Synchronized Multi-Signatures from Lattices: [github](https://github.com/zhenfeizhang/sync_multi_sig)
+  - Squirrel: Efficient Synchronized Multi-Signatures from Lattices. [github](https://github.com/zhenfeizhang/sync_multi_sig), [paper](https://eprint.iacr.org/2022/694)
 
 - Verifiable random functions for consensus
   - Lattice based construction: [github](https://github.com/zhenfeizhang/lb-vrf), [paper](https://eprint.iacr.org/2020/1222)

@@ -6,9 +6,9 @@ title: Publications
 2022
 ------- 
 
-* __Efficient Synchronized Multi-Signatures from Lattices__
+* __Squirrel: Efficient Synchronized Multi-Signatures from Lattices.__
   * _Nils Fleischhacker, Mark Simkin and Zhenfei Zhang_
-  * Preprint. [Github](https://github.com/zhenfeizhang/sync_multi_sig).
+  * [IACR eprint](https://eprint.iacr.org/2022/694). [Github](https://github.com/zhenfeizhang/sync_multi_sig).
 
 * __Post-Quantum Verifiable Random Function from Symmetric Primitives in PoS Blockchain__
   * _Maxime Buser and Rafael Dowsley and Muhammed F. Esgin and Shabnam Kasra Kermanshahi and Veronika Kuchta and Joseph K. Liu and Raphael Phan and Zhenfei Zhang_
