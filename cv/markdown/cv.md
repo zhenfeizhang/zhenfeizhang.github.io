@@ -81,12 +81,15 @@ Programming Languages
 
 Open sourced libraries
 --------------------
+VeriZexe
+: achieving functional privacy for smart contracts. [Source code](https://github.com/EspressoSystems/veri-zexe).
+
 Jellyfish
 : a rust implementation of plonk zero-knowledge proof system. [Source code](https://github.com/SpectrumXYZ/jellyfish). Also comes with a [solidity verifier](https://.github.com/EspressoSystems/cape/tree/main/contracts/contracts/verifier).
 
 
-Falcon-R1CS
-: R1CS implementation for the post-quantum falcon signature. [Source code](https://github.com/zhenfeizhang/falcon-rust).
+Falcon.rs
+: Falcon written in R1CS and Plonkish circuits for ZKP applications. [Source code](https://github.com/zhenfeizhang/falcon.rs).
 
 
 Bandersnatch
@@ -116,11 +119,6 @@ Ring multiplication
 : A C library for fast ring multiplication using AVX-2; improving
 prior codes by
 a factor of 2.23. [Source code](https://github.com/zhenfeizhang/polynomial_mul)
-<!-- 
-libgcrypt-ntru
-: Enabling NTRUEncrypt for libgcrypt. [Source code](https://github.com/zhenfeizhang/libgcrypt-ntru).
- -->
-
 
 Education
 ---------
@@ -225,6 +223,21 @@ See next pages for the full list of patents, standards and publications.
 
 # Publications
 
+2022
+------- 
+
+* __VERI-ZEXE: Decentralized Private Computation with Universal Setup__
+  * Alex Luoyuan Xiong, Binyi Chen, Zhenfei Zhang, Benedikt Bünz, Ben Fisch, Fernando Krell and Philippe Camacho
+  * [IACR eprint](https://eprint.iacr.org/2022/802). [Github](https://github.com/EspressoSystems/veri-zexe).
+
+* __Squirrel: Efficient Synchronized Multi-Signatures from Lattices.__
+  * _Nils Fleischhacker, Mark Simkin and Zhenfei Zhang_
+  * [IACR eprint](https://eprint.iacr.org/2022/694). [Github](https://github.com/zhenfeizhang/sync_multi_sig).
+
+* __Post-Quantum Verifiable Random Function from Symmetric Primitives in PoS Blockchain__
+  * _Maxime Buser and Rafael Dowsley and Muhammed F. Esgin and Shabnam Kasra Kermanshahi and Veronika Kuchta and Joseph K. Liu and Raphael Phan and Zhenfei Zhang_
+  * ESORICS 2022. [IACR eprint](https://eprint.iacr.org/2021/302).
+
 2021
 -------
 * __Bandersnatch: a fast elliptic curve built over the BLS12-381 scalar field__
@@ -240,10 +253,6 @@ See next pages for the full list of patents, standards and publications.
 * __Practical Post-Quantum Few-Time Verifiable Random Function with Applications to Algorand__
   * _Muhammed F. Esgin and Veronika Kuchta and Amin Sakzad and Ron Steinfeld and Zhenfei Zhang and Shifeng Sun and Shumo Chu_
   * Financial Cryptography 2021. [IACR eprint](https://eprint.iacr.org/2020/1222).  [Source code](https://github.com/zhenfeizhang/lb-vrf).
-
-* __Post-Quantum Verifiable Random Function from Symmetric Primitives in PoS Blockchain__
-  * _Maxime Buser and Rafael Dowsley and Muhammed F. Esgin and Shabnam Kasra Kermanshahi and Veronika Kuchta and Joseph K. Liu and Raphael Phan and Zhenfei Zhang_
-  * Pre-print. [IACR eprint](https://eprint.iacr.org/2021/302).
 
 * __TensorCrypto__
   * Wai-Kong Lee, Hwajeong Seo, Zhenfei Zhang and Seongoun Hwang
