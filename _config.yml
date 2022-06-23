@@ -28,7 +28,7 @@ navbar-links:
   About Me: "material/aboutme"
   Publications: "material/pub"
   Projects: "material/projects"
-  Talks: "material/talks"
+  # Talks: "material/talks"
 #    - Cryptography for blockchain: "material/bc"
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"

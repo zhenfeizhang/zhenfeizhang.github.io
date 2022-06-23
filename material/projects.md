@@ -22,6 +22,8 @@ title: Highlight of projects
 
 # Blockchain cryptography
 - ZKP architecture and applications
+  - VeriZexe: achieving functional privacy for smart contracts
+    - [github](https://github.com/EspressoSystems/veri-zexe), [paper](https://eprint.iacr.org/2022/802)
   - Jellyfish: a rust implementation of __PLONK__ zero-knowledge proof system 
     - the most feature-complete and fastest open-source implementation of PLONK;
     - [github](https://github.com/SpectrumXYZ/jellyfish), [press](https://www.espressosys.com/blog/introducing-the-jellyfish-cryptography-library)
