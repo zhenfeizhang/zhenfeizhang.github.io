@@ -37,6 +37,7 @@ title: Highlight of projects
   - Pixel signature: [github](https://github.com/algorand/pixel), [press](https://medium.com/algorand/digital-signatures-for-blockchains-5820e15fbe95)
 
 - Curves
+  - [Pasta curve on solidity](https://github.com/zhenfeizhang/pasta-solidity)
   - Bandersantch curve: [original post](https://ethresear.ch/t/introducing-bandersnatch-a-fast-elliptic-curve-built-over-the-bls12-381-scalar-field/9957), [github](https://github.com/zhenfeizhang/bandersnatch).
 
 # NIST post-quantum cryptography
