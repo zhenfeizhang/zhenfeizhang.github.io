@@ -5,6 +5,10 @@ title: Selected Publications
 
 For a full list of publications, see [here](https://zhenfeizhang.github.io/material/pub_full/)
 
+* __Squirrel: Efficient Synchronized Multi-Signatures from Lattices.__
+  * _Nils Fleischhacker, Mark Simkin and Zhenfei Zhang_
+  * ACM CCS 2022. [IACR eprint](https://eprint.iacr.org/2022/694). [Github](https://github.com/zhenfeizhang/sync_multi_sig).
+
 * __Post-Quantum Verifiable Random Function from Symmetric Primitives in PoS Blockchain__
   * _Maxime Buser and Rafael Dowsley and Muhammed F. Esgin and Shabnam Kasra Kermanshahi and Veronika Kuchta and Joseph K. Liu and Raphael Phan and Zhenfei Zhang_
   * ESORICS 2022. [IACR eprint](https://eprint.iacr.org/2021/302).
@@ -32,12 +36,6 @@ For a full list of publications, see [here](https://zhenfeizhang.github.io/mater
 * __Efficient Lattice-Based Zero-Knowledge Arguments with Standard Soundness: Construction and Applications__
   * _Rupeng Yang, Man Ho Au, Zhenfei Zhang, Qiuliang Xu, Zuoxia Yu, William Whyte_
   * Crypto 2019.   [IACR eprint](https://eprint.iacr.org/2019/747).
-
-* __LAC: Practical Ring-LWE Based Public-Key Encryption with Byte-Level Modulus__
-  * _Xianhui Lu, Yamin Liu, Zhenfei Zhang, Dingding Jia, Haiyang Xue, Jingnan He, Bao Li_
-  * Pre-print. [IACR eprint](https://eprint.iacr.org/2018/1009). [Source code](https://github.com/luxianhui007/LAC). [talk](../../talks/nist-lac-2019.pdf)
-  * __First prize__ of [Chinese post-quantum cryptography competition](https://www.cacrnet.org.cn/site/content/854.html).
-  * [2nd round](https://csrc.nist.gov/Projects/post-quantum-cryptography/round-2-submissions), NIST post-quantum cryptography standardization process.
 
 * __On the Hardness of the Computational Ring-LWR Problem and its Applications__
   * _Long Chen, Zhenfeng Zhang, Zhenfei Zhang_

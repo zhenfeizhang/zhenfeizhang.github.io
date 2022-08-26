@@ -41,8 +41,10 @@ title: Highlight of projects
   - Bandersantch curve: [original post](https://ethresear.ch/t/introducing-bandersnatch-a-fast-elliptic-curve-built-over-the-bls12-381-scalar-field/9957), [github](https://github.com/zhenfeizhang/bandersnatch).
 
 # NIST post-quantum cryptography
-- 3nd round finalists
+- Standard
   - [Falcon Signature](https://falcon-sign.info/)
+  
+- 3nd round finalists
   - [NTRU](https://ntru.org)
 
 - 2nd round candidates
