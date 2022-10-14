@@ -8,7 +8,7 @@ I am a cryptography researcher.
 
 You may be interested in the web3 projects I worked/am working on (listed Alphabetically): [Algorand](https://algorand.com), [Espresso](https://www.espressosys.com/),
 [Ethereum](https://crypto.ethereum.org/team), [Manta](https://manta.network/), 
-[mina](https://minaprotocol.com/), [Scroll](https://scroll.io/).
+[Mina](https://minaprotocol.com/), [Scroll](https://scroll.io/).
 
 Or you may be interested in the libraries that I recently (co-)developed:
 [Ark-Spartan](https://github.com/zhenfeizhang/ark-spartan),
