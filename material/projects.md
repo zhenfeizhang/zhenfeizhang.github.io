@@ -22,6 +22,8 @@ title: Highlight of projects
 
 # Blockchain cryptography
 - ZKP architecture and applications
+  - ArkSpartan: Spartan Prove System plugged into Arkworks framework.
+    - [github](https://github.com/zhenfeizhang/ark-spartan)
   - VeriZexe: achieving functional privacy for smart contracts
     - [github](https://github.com/EspressoSystems/veri-zexe), [paper](https://eprint.iacr.org/2022/802)
   - Jellyfish: a rust implementation of __PLONK__ zero-knowledge proof system 
