@@ -10,11 +10,11 @@ You may be interested in the web3 projects I worked/am working on (listed Alphab
 [Ethereum](https://crypto.ethereum.org/team), [Manta](https://manta.network/), [Scroll](https://scroll.io/).
 
 Or you may be interested in the libraries that I recently (co-)developed:
-[ArkSpartan](https://github.com/zhenfeizhang/ark-spartan),
+[Ark-Spartan](https://github.com/zhenfeizhang/ark-spartan),
 [HyperPlonk](https://eprint.iacr.org/2022/1355),
 [Jellyfish](https://github.com/SpectrumXYZ/jellyfish),
 [Squirrel](https://github.com/zhenfeizhang/sync_multi_sig).
-[VeriZexe](https://github.com/EspressoSystems/veri-zexe),
+[VeriZexe](https://github.com/EspressoSystems/veri-zexe).
 For more projects see [CV](../cv/output/cv.pdf) or
 [highlights of projects](https://zhenfeizhang.github.io/material/projects/).
 
