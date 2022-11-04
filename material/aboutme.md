@@ -2,15 +2,18 @@
 layout: page
 title: About me
 ---
+I am 
 
+- an engineer at [Scroll](https://scroll.io/). 
+- a researcher at [Ethereum foundation](https://crypto.ethereum.org/team)
+- an dvisor for [Cysic](https://cysic.xyz/) and [Modulus Labs](https://www.moduluslabs.xyz/).
 
-I am a cryptography researcher. 
+Previously I worked (listed Alphabetically): [Algorand](https://algorand.com), [Espresso](https://www.espressosys.com/),
+[Manta](https://manta.network/), and a couple of non-web3 companies.
 
-You may be interested in the web3 projects I worked/am working on (listed Alphabetically): [Algorand](https://algorand.com), [Espresso](https://www.espressosys.com/),
-[Ethereum](https://crypto.ethereum.org/team), [Manta](https://manta.network/), 
-[Mina](https://minaprotocol.com/), [Scroll](https://scroll.io/).
+I also received grants from [Polkadot](https://web3.foundation/) and [Mina](https://minaprotocol.com/).
 
-Or you may be interested in the libraries that I recently (co-)developed:
+You may be interested in the libraries that I recently (co-)developed:
 [Ark-Spartan](https://github.com/zhenfeizhang/ark-spartan),
 [HyperPlonk](https://eprint.iacr.org/2022/1355),
 [Jellyfish](https://github.com/SpectrumXYZ/jellyfish),
