@@ -5,12 +5,11 @@ title: About me
 I am 
 
 - an engineer at [Scroll](https://scroll.io/);
-- a researcher at [Ethereum foundation](https://crypto.ethereum.org/team);
+- a researcher at [Ethereum Foundation](https://crypto.ethereum.org/team);
 - an advisor for [Cysic](https://cysic.xyz/) and [Modulus Labs](https://www.moduluslabs.xyz/).
 
-Previously I worked (listed Alphabetically): [Algorand](https://algorand.com), [Espresso](https://www.espressosys.com/),
+Previously I worked for (listed Alphabetically): [Algorand](https://algorand.com), [Espresso](https://www.espressosys.com/),
 [Manta](https://manta.network/), and a couple of non-web3 companies.
-
 I also received grants from [Polkadot](https://web3.foundation/) and [Mina](https://minaprotocol.com/).
 
 You may be interested in the libraries that I recently (co-)developed:
