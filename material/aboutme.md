@@ -4,9 +4,9 @@ title: About me
 ---
 I am 
 
-- an engineer at [Scroll](https://scroll.io/). 
-- a researcher at [Ethereum foundation](https://crypto.ethereum.org/team)
-- an dvisor for [Cysic](https://cysic.xyz/) and [Modulus Labs](https://www.moduluslabs.xyz/).
+- an engineer at [Scroll](https://scroll.io/);
+- a researcher at [Ethereum foundation](https://crypto.ethereum.org/team);
+- an advisor for [Cysic](https://cysic.xyz/) and [Modulus Labs](https://www.moduluslabs.xyz/).
 
 Previously I worked (listed Alphabetically): [Algorand](https://algorand.com), [Espresso](https://www.espressosys.com/),
 [Manta](https://manta.network/), and a couple of non-web3 companies.
