@@ -5,6 +5,11 @@ title: Selected Publications
 
 For a full list of publications, see [here](https://zhenfeizhang.github.io/material/pub_full/)
 
+
+* __VERI-ZEXE: Decentralized Private Computation with Universal Setup__
+  * _Alex Luoyuan Xiong, Binyi Chen, Zhenfei Zhang, Benedikt Bünz, Ben Fisch, Fernando Krell and Philippe Camacho_
+  * USENIX 2023. [IACR eprint](https://eprint.iacr.org/2022/802). [Github](https://github.com/EspressoSystems/veri-zexe).
+
 * __Squirrel: Efficient Synchronized Multi-Signatures from Lattices.__
   * _Nils Fleischhacker, Mark Simkin and Zhenfei Zhang_
   * ACM CCS 2022. [IACR eprint](https://eprint.iacr.org/2022/694). [Github](https://github.com/zhenfeizhang/sync_multi_sig).
