@@ -22,6 +22,9 @@ title: Highlight of projects
 
 # Blockchain cryptography
 - ZKP architecture and applications
+  - Poseidon hash circuit: first place of ZPRIZE competition
+    - The [challenge](https://www.zprize.io/prizes/accelerating-the-poseidon-hash-function) and the [result announcement](https://twitter.com/z_prize/status/1600173479134990337).
+
   - ArkSpartan: Spartan Prove System plugged into Arkworks framework.
     - [github](https://github.com/zhenfeizhang/ark-spartan)
   - VeriZexe: achieving functional privacy for smart contracts
