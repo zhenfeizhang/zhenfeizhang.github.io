@@ -5,6 +5,10 @@ title: Publications
 
 2022
 ------- 
+* __An SVP attack on Vortex__
+  * Zhenfei Zhang
+  * [IACR eprint](https://eprint.iacr.org/2022/1754)
+
 * __HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates__
   * Binyi Chen, Benedikt Bünz, Dan Boneh and Zhenfei Zhang
   * [IACR eprint](https://eprint.iacr.org/2022/1355).
