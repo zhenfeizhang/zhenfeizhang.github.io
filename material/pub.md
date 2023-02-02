@@ -5,6 +5,9 @@ title: Selected Publications
 
 For a full list of publications, see [here](https://zhenfeizhang.github.io/material/pub_full/)
 
+* __HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates__
+  * Binyi Chen, Benedikt Bünz, Dan Boneh and Zhenfei Zhang
+  * Eurocrypt 2023. [IACR eprint](https://eprint.iacr.org/2022/1355), [github](https://github.com/EspressoSystems/hyperplonk).
 
 * __VERI-ZEXE: Decentralized Private Computation with Universal Setup__
   * _Alex Luoyuan Xiong, Binyi Chen, Zhenfei Zhang, Benedikt Bünz, Ben Fisch, Fernando Krell and Philippe Camacho_

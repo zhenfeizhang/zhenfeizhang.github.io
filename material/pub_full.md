@@ -3,20 +3,21 @@ layout: page
 title: Publications
 ---
 
+2023
+------- 
+* __HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates__
+  * _Binyi Chen, Benedikt Bünz, Dan Boneh and Zhenfei Zhang_
+  * Eurocrypt 2023. [IACR eprint](https://eprint.iacr.org/2022/1355), [github](https://github.com/EspressoSystems/hyperplonk).
+
+* __VERI-ZEXE: Decentralized Private Computation with Universal Setup__
+  * _Alex Luoyuan Xiong, Binyi Chen, Zhenfei Zhang, Benedikt Bünz, Ben Fisch, Fernando Krell and Philippe Camacho_
+  * USENIX security 2023. [IACR eprint](https://eprint.iacr.org/2022/802). [Github](https://github.com/EspressoSystems/veri-zexe).
+
 2022
 ------- 
 * __An SVP attack on Vortex__
-  * Zhenfei Zhang
+  * _Zhenfei Zhang_
   * [IACR eprint](https://eprint.iacr.org/2022/1754)
-
-* __HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates__
-  * Binyi Chen, Benedikt Bünz, Dan Boneh and Zhenfei Zhang
-  * [IACR eprint](https://eprint.iacr.org/2022/1355).
-
-
-* __VERI-ZEXE: Decentralized Private Computation with Universal Setup__
-  * Alex Luoyuan Xiong, Binyi Chen, Zhenfei Zhang, Benedikt Bünz, Ben Fisch, Fernando Krell and Philippe Camacho
-  * [IACR eprint](https://eprint.iacr.org/2022/802). [Github](https://github.com/EspressoSystems/veri-zexe).
 
 * __Squirrel: Efficient Synchronized Multi-Signatures from Lattices.__
   * _Nils Fleischhacker, Mark Simkin and Zhenfei Zhang_
@@ -26,11 +27,10 @@ title: Publications
   * _Maxime Buser and Rafael Dowsley and Muhammed F. Esgin and Shabnam Kasra Kermanshahi and Veronika Kuchta and Joseph K. Liu and Raphael Phan and Zhenfei Zhang_
   * ESORICS 2022. [IACR eprint](https://eprint.iacr.org/2021/302).
 
-
 2021
 -------
 * __Bandersnatch: a fast elliptic curve built over the BLS12-381 scalar field__
-  * Simon Masson, Antonio Sanso and Zhenfei Zhang
+  * _Simon Masson, Antonio Sanso and Zhenfei Zhang_
   * [IACR eprint](https://eprint.iacr.org/2021/1152). [Github](https://github.com/zhenfeizhang/bandersnatch).
 
 * __Manta: a Plug and Play Private DeFi Stack__
@@ -43,7 +43,7 @@ title: Publications
   * Financial Cryptography 2021. [IACR eprint](https://eprint.iacr.org/2020/1222). [Source code](https://github.com/zhenfeizhang/lb-vrf).
 
 * __TensorCrypto: High Throughput Acceleration of Lattice-based Cryptography Using Tensor Core on GPU__
-  * Wai-Kong Lee, Hwajeong Seo, Zhenfei Zhang and Seongoun Hwang
+  * _Wai-Kong Lee, Hwajeong Seo, Zhenfei Zhang and Seongoun Hwang_
   * Pre-print. [IACR eprint](https://eprint.iacr.org/2021/173). [Source code](https://github.com/benlwk/Tensorcrypto).
  
 * __Hybrid Dual Attack on LWE with Arbitrary Secrets__
