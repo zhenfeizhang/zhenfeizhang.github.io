@@ -13,3 +13,6 @@ ehthumbs.db
 *.log
 *.tex
 *.tuc
+Gemfile.lock
+
+beautiful-jekyll-theme-*.gem
