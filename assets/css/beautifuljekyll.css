@@ -12,7 +12,7 @@ html {
 
 body {
   font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: {{ site.text-col | default: "#404040" }};
   position: relative;
   background-color: {{ site.page-col | default: "#FFFFFF" }};
@@ -32,16 +32,16 @@ h1,h2,h3,h4,h5,h6 {
   line-height: 1.1;
 }
 h1 {
-  font-size: 2.25rem;
+  font-size: 1.375rem;
 }
 h2 {
-  font-size: 1.875rem;
+  font-size: 1.24rem;
 }
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.125rem;
 }
 h4 {
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 h1, h2, h3, h4 {
   margin-top: 1.25rem;
