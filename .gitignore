@@ -8,6 +8,11 @@ _site
 Thumbs.db
 ehthumbs.db
 
+# cv tmp files
+
+*.log
+*.tex
+*.tuc
 Gemfile.lock
 
 beautiful-jekyll-theme-*.gem
