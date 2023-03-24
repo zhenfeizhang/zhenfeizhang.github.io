@@ -5,6 +5,12 @@ title: Publications
 
 2023
 ------- 
+
+* __Origami: Fold a Plonk for Ethereum’s VDF__
+  * _Zhenfei Zhang_
+  * [IACR eprint](https://eprint.iacr.org/2023/384).
+
+
 * __HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates__
   * _Binyi Chen, Benedikt Bünz, Dan Boneh and Zhenfei Zhang_
   * Eurocrypt 2023. [IACR eprint](https://eprint.iacr.org/2022/1355), [github](https://github.com/EspressoSystems/hyperplonk).
