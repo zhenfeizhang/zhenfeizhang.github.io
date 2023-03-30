@@ -14,9 +14,10 @@ I also received grants from [Polkadot](https://web3.foundation/) and [Mina](http
 
 You may be interested in the libraries that I recently (co-)developed:
 [Ark-Spartan](https://github.com/zhenfeizhang/ark-spartan),
-[HyperPlonk](https://eprint.iacr.org/2022/1355),
+[HyperPlonk](https://github.com/EspressoSystems/hyperplonk),
 [Jellyfish](https://github.com/SpectrumXYZ/jellyfish),
 [Squirrel](https://github.com/zhenfeizhang/sync_multi_sig),
+[pasta-solidity](https://github.com/zhenfeizhang/pasta-solidity),
 [VeriZexe](https://github.com/EspressoSystems/veri-zexe).
 For more projects see [CV](../cv/output/cv.pdf) or
 [highlights of projects](https://zhenfeizhang.github.io/material/projects/).

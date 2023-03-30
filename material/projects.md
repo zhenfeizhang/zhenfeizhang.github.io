@@ -43,6 +43,9 @@ title: Highlight of projects
   - BLS signature: [github](https://github.com/algorand/bls_sigs_ref), [crate.io](https://crates.io/crates/bls_sigs_ref), [Internet-Draft](https://tools.ietf.org/html/draft-boneh-bls-signature-00), [press](https://www.algorand.com/resources/blog/first-release-bls-library)
   - Pixel signature: [github](https://github.com/algorand/pixel), [press](https://medium.com/algorand/digital-signatures-for-blockchains-5820e15fbe95)
 
+- Verifiable delay functions
+  - Origami [paper](https://eprint.iacr.org/2023/384)
+
 - Curves
   - [Pasta curve on solidity](https://github.com/zhenfeizhang/pasta-solidity)
   - Bandersantch curve: [original post](https://ethresear.ch/t/introducing-bandersnatch-a-fast-elliptic-curve-built-over-the-bls12-381-scalar-field/9957), [github](https://github.com/zhenfeizhang/bandersnatch).
