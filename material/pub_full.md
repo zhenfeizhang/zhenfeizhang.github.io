@@ -6,10 +6,9 @@ title: Publications
 2023
 ------- 
 
-* __Origami: Fold a Plonk for Ethereum’s VDF__
-  * _Zhenfei Zhang_
-  * [IACR eprint](https://eprint.iacr.org/2023/384).
-
+* __Chipmunk: Better Synchronized Multi-Signatures from Lattices__
+  * _Nils Fleischhacker, Gottfried Herold, Mark Simkin and Zhenfei Zhang_
+  * ACM CCS 2023.
 
 * __HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates__
   * _Binyi Chen, Benedikt Bünz, Dan Boneh and Zhenfei Zhang_
