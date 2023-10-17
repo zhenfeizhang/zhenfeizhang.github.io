@@ -18,6 +18,8 @@ For more projects see [CV](../cv/output/cv.pdf) or
 [highlights of projects](https://zhenfeizhang.github.io/material/projects/).
 
 
+I am also an angel investor and a start-up advisor, with a focus on the ZK space. If you have interesting ideas, please get in touch.
+
 <!-- 
  of the [Ethereum Foundation](https://crypto.ethereum.org/team), and 
 a staff cryptography engineer at a stealth startup.

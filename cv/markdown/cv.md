@@ -7,62 +7,48 @@ Zhenfei Zhang
 ============
 
 -------------------                             ----------------------------
-Cryptographer, Rust developer                                   zhenfei.zhang@hotmail.com
-                                                https://zhenfeizhang.github.io/
-                                                https://www.linkedin.com/in/zhenfeizhang/
+Cryptographer,                                                   _zhangzhenfei@gmail.com_
+Rust developer,                                                    _https://zhenfeizhang.github.io/_
+Start-up advisor,                                                 _https://www.linkedin.com/in/zhenfeizhang/_
+Angel investor 
 -------------------                             ----------------------------
 
 
 Experience
 ----------
 
-**Staff cryptographer**, _Stealth Startup_, 2021.7-now
+**Cryptography engineer**, _Scroll tech_, 2022-now
 
-- Building new infrastructure for ZKP.
+**Cryptography researcher**, _Ethereum Foundation_, 2021-now
 
-**Cryptography researcher**, _Ethereum Foundation_, 2021.6-now
+**Staff cryptographer**, _Espresso System_, 2021-2022
 
-- Building Ethereum 3.0.
+**CTO and co-founder**, _Manta Network_, 2021
 
-**CTO and co-founder**, _Manta Network_, 2021.1-2021.7
-
-- Building privacy preserving decentralized exchange blockchain.
-
-**Senior Security Expert**, _Ant Group_, 2020.11-2021.1
-
-Leading the cryptography team.
-
-**Cryptography Engineer**, _Algorand_, 2018.10-2020.10
-
-Identify, develop and standardize cryptographic tools to be used
-by Algorand blockchain protocol.
-
-* Product level __Rust__ code:
-  [Pixel signature](https://github.com/algorand/pixel),
-  [BLS signature](https://github.com/algorand/bls_sigs_ref),
-  [Pointproofs](https://github.com/algorand/pointproofs).
-
-* Standards:
-[Internet draft](https://datatracker.ietf.org/doc/draft-irtf-cfrg-bls-signature/) for BLS signature scheme.
+**Cryptography Engineer**, _Algorand_, 2018-2020
 
 **Director of Cryptography Research**, _Security Innovation_ -> _OnBoard Security_, 2014-2018
+
+----------
 
 Highlights
 --------------------
 
-Unique skill set
+Unique skill
 : _full stack cryptographer_: 
 : Eureka -> academic paper -> spec -> poc -> standard -> code -> product
 
-Standards
-: Contribute to **2** out of 7 finalists of NIST's [post-quantum cryptography standardization process](https://csrc.nist.gov/projects/post-quantum-cryptography/round-3-submissions):
-[Falcon](https://falcon-sign.info/) and [NTRU](https://ntru.org).
+Competitions
+: [Winner](https://twitter.com/z_prize/status/1600173479134990337) of Zprize 2023: [Accelerating the Poseidon Hash Function](https://www.zprize.io/prizes/accelerating-the-poseidon-hash-function)
+: [Falcon](https://falcon-sign.info/) is a NIST [post-quantum cryptography standard](https://csrc.nist.gov/projects/post-quantum-cryptography/round-3-submissions).
 : [LAC](https://eprint.iacr.org/2018/1009) won the first prize of [Chinese post-quantum cryptography competition](https://www.cacrnet.org.cn/site/content/854.html).
+
+Standards
 : Internet draft: [BLS-signature](https://datatracker.ietf.org/doc/draft-irtf-cfrg-bls-signature/) (_"Ethereum 2.0 is not possible without BLS"_)
 : Internet draft: Quantum safe hybrid for [TLS 1.2](https://datatracker.ietf.org/doc/draft-whyte-qsh-tls12/) and [TLS 1.3](https://datatracker.ietf.org/doc/draft-whyte-qsh-tls13/).
 
-Publication and patents
-: __3__ U.S. patents; __30+__ peer reviewed paper at ACM CCS 2020, PKC 2020, Asiacrypt 2019, Crypto 2019, Asiacrypt 2018, PKC 2018, etc.;
+Publication
+: __30+__ peer reviewed paper at Eurocrypt 2023, Usenix 2023, ACM CCS 2023, 2022, 2020, Asiacrypt 2019, Crypto 2019, Asiacrypt 2018, PKC 2020, 2018, etc.;
 : See next pages for full list.
 
 <!-- 
@@ -81,6 +67,10 @@ Programming Languages
 
 Open sourced libraries
 --------------------
+HyperPlonk
+: Plonk with Linear-Time Prover and High-Degree Custom Gates. [Source code](https://github.com/EspressoSystems/hyperplonk).
+
+
 VeriZexe
 : achieving functional privacy for smart contracts. [Source code](https://github.com/EspressoSystems/veri-zexe).
 
@@ -140,11 +130,11 @@ Education
 
 
 
-Research Interest
+<!-- Research Interest
 --------------------
 
 * Practical aspects of lattice based cryptography;
-* Cryptographic primitives for blockchains privacy, such as ring signatures, zero knowledge proofs;
+* Cryptographic primitives for blockchains privacy, such as ring signatures, zero knowledge proofs; -->
 
 \
 \
@@ -223,16 +213,34 @@ See next pages for the full list of patents, standards and publications.
 
 # Publications
 
-2022
+2024
+-------
+* __Parallel Zero-knowledge Virtual Machine__
+  * Wenqing Hu, Tianyi Liu, Ye Zhang, Yuncong Zhang and Zhenfei Zhang
+  * [IACR eprint](https://eprint.iacr.org/2024/387)
+
+
+2023
 ------- 
+
+* __Chipmunk: Better Synchronized Multi-Signatures from Lattices__
+  * _Nils Fleischhacker, Gottfried Herold, Mark Simkin and Zhenfei Zhang_
+  * ACM CCS 2023.
+
+* __HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates__
+  * _Binyi Chen, Benedikt Bünz, Dan Boneh and Zhenfei Zhang_
+  * Eurocrypt 2023. [IACR eprint](https://eprint.iacr.org/2022/1355), [github](https://github.com/EspressoSystems/hyperplonk).
 
 * __VERI-ZEXE: Decentralized Private Computation with Universal Setup__
   * Alex Luoyuan Xiong, Binyi Chen, Zhenfei Zhang, Benedikt Bünz, Ben Fisch, Fernando Krell and Philippe Camacho
-  * [IACR eprint](https://eprint.iacr.org/2022/802). [Github](https://github.com/EspressoSystems/veri-zexe).
+  * Usenix Security 2023. [IACR eprint](https://eprint.iacr.org/2022/802). [Github](https://github.com/EspressoSystems/veri-zexe).
+
+2022
+------- 
 
 * __Squirrel: Efficient Synchronized Multi-Signatures from Lattices.__
   * _Nils Fleischhacker, Mark Simkin and Zhenfei Zhang_
-  * [IACR eprint](https://eprint.iacr.org/2022/694). [Github](https://github.com/zhenfeizhang/sync_multi_sig).
+  * ACM CCS 2022. [IACR eprint](https://eprint.iacr.org/2022/694). [Github](https://github.com/zhenfeizhang/sync_multi_sig).
 
 * __Post-Quantum Verifiable Random Function from Symmetric Primitives in PoS Blockchain__
   * _Maxime Buser and Rafael Dowsley and Muhammed F. Esgin and Shabnam Kasra Kermanshahi and Veronika Kuchta and Joseph K. Liu and Raphael Phan and Zhenfei Zhang_
