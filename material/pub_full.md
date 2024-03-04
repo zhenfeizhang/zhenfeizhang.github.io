@@ -3,6 +3,12 @@ layout: page
 title: Publications
 ---
 
+2024
+-------
+* __Parallel Zero-knowledge Virtual Machine__
+  * Wenqing Hu, Tianyi Liu, Ye Zhang, Yuncong Zhang and Zhenfei Zhang
+  * [IACR eprint](https://eprint.iacr.org/2024/387)
+
 2023
 ------- 
 
