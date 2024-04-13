@@ -8,7 +8,7 @@ Previously I worked for (listed Alphabetically): [Algorand](https://algorand.com
 I also received grants from [Polkadot](https://web3.foundation/) and [Mina](https://minaprotocol.com/).
 
 You may be interested in the libraries that I recently (co-)developed:
-[Ark-Spartan](https://github.com/zhenfeizhang/ark-spartan),
+[Ark-Spartan](https://github.com/arkworks-rs/spartan),
 [HyperPlonk](https://github.com/EspressoSystems/hyperplonk),
 [Jellyfish](https://github.com/SpectrumXYZ/jellyfish),
 [Squirrel](https://github.com/zhenfeizhang/sync_multi_sig),
