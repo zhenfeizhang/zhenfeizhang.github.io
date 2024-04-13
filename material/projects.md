@@ -7,10 +7,11 @@ title: Highlight of projects
 - ZK for Neural Networks
   - [github](https://github.com/UCSB-TDS/ZEN), [paper](https://eprint.iacr.org/2021/087)
   
-# Blockchain x Post-quantum Crypto
+# Blockchain x (NO MORE) Post-quantum Crypto
 
 - Signature for consensus:
   - Squirrel: Efficient Synchronized Multi-Signatures from Lattices. [github](https://github.com/zhenfeizhang/sync_multi_sig), [paper](https://eprint.iacr.org/2022/694)
+  - Chipmunk: Better Synchronized Multi-Signatures from Lattices. [gitHub](https://github.com/GottfriedHerold/Chipmunk) and  [paper](https://eprint.iacr.org/2023/1820).
 
 - Verifiable random functions for consensus
   - Lattice based construction: [github](https://github.com/zhenfeizhang/lb-vrf), [paper](https://eprint.iacr.org/2020/1222)
@@ -29,6 +30,7 @@ title: Highlight of projects
 
   - ArkSpartan: Spartan Prove System plugged into Arkworks framework.
     - [github](https://github.com/zhenfeizhang/ark-spartan)
+    - Backbone for A16Z's [Jolt](https://github.com/a16z/jolt) and Nexus' [nexus-zkvm](https://github.com/nexus-xyz/nexus-zkvm/tree/main/spartan).
   - VeriZexe: achieving functional privacy for smart contracts
     - [github](https://github.com/EspressoSystems/veri-zexe), [paper](https://eprint.iacr.org/2022/802)
   - Jellyfish: a rust implementation of PLONK zero-knowledge proof system 
