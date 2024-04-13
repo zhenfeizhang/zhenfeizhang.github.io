@@ -4,7 +4,7 @@ title: About me
 ---
 I am a researcher at [Ethereum Foundation](https://crypto.ethereum.org/team).
 Previously I worked for (listed Alphabetically): [Algorand](https://algorand.com), [Espresso](https://www.espressosys.com/),
-[Manta](https://manta.network/)， [Scroll](https://scroll.io/), and a couple of non-web3 companies.
+[Manta](https://manta.network/)，[Scroll](https://scroll.io/), and a couple of non-web3 companies.
 I also received grants from [Polkadot](https://web3.foundation/) and [Mina](https://minaprotocol.com/).
 
 You may be interested in the libraries that I recently (co-)developed:
