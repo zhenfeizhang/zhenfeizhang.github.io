@@ -5,8 +5,13 @@ title: Publications
 
 2024
 -------
-* __Parallel Zero-knowledge Virtual Machine__
-  * Wenqing Hu, Tianyi Liu, Ye Zhang, Yuncong Zhang and Zhenfei Zhang
+* __Jolt-b: recursion friendly Jolt with basefold commitment__
+  * Hang Su, Qi Yang, Zhenfei Zhang
+  * [IACR eprint](https://eprint.iacr.org/2024/1131)
+
+
+* __Ceno: Non-uniform, Segment and Parallel Zero-knowledge Virtual Machine__
+  * Tianyi Liu, Zhenfei Zhang, Yuncong Zhang, Wenqing Hu, and Ye Zhang
   * [IACR eprint](https://eprint.iacr.org/2024/387)
 
 2023
