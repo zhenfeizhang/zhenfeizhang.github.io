@@ -2,13 +2,12 @@
 layout: page
 title: About me
 ---
-I am a researcher at [Ethereum Foundation](https://crypto.ethereum.org/team).
-Previously I worked for (listed Alphabetically): [Algorand](https://algorand.com), [Espresso](https://www.espressosys.com/),
-[Manta](https://manta.network/)，[Scroll](https://scroll.io/), and a couple of non-web3 companies.
-I also received grants from [Polkadot](https://web3.foundation/) and [Mina](https://minaprotocol.com/).
+I am a cryptographer at [Polyhedra](https://www.polyhedra.network/).
+Previously I worked for (listed Alphabetically): [Algorand](https://algorand.com), [Espresso](https://www.espressosys.com/), [Ethereum Foundation](https://crypto.ethereum.org/team), [Manta](https://manta.network/), [Scroll](https://scroll.io/), and a couple of non-web3 companies. I also received grants from [Polkadot](https://web3.foundation/) and [Mina](https://minaprotocol.com/).
 
 You may be interested in the libraries that I recently (co-)developed:
 [Ark-Spartan](https://github.com/arkworks-rs/spartan) ([Jolt](https://github.com/a16z/jolt)'s backend),
+[Expander-rs](https://github.com/PolyhedraZK/Expander-rs), 
 [HyperPlonk](https://github.com/EspressoSystems/hyperplonk),
 [Jellyfish](https://github.com/SpectrumXYZ/jellyfish),
 [Squirrel](https://github.com/zhenfeizhang/sync_multi_sig),
