@@ -17,9 +17,11 @@ Angel investor
 Experience
 ----------
 
-**Cryptography engineer**, _Scroll tech_, 2022-now
+**Chief Cryptographer**, _Polyhedra__, 2024-now
 
-**Cryptography researcher**, _Ethereum Foundation_, 2021-now
+**Cryptography engineer**, _Scroll tech_, 2022-2024
+
+**Cryptography researcher**, _Ethereum Foundation_, 2021-2024
 
 **Staff cryptographer**, _Espresso System_, 2021-2022
 
@@ -215,9 +217,18 @@ See next pages for the full list of patents, standards and publications.
 
 2024
 -------
-* __Parallel Zero-knowledge Virtual Machine__
-  * Wenqing Hu, Tianyi Liu, Ye Zhang, Yuncong Zhang and Zhenfei Zhang
-  * [IACR eprint](https://eprint.iacr.org/2024/387)
+
+* __Bandersnatch: a fast elliptic curve built over the BLS12-381 scalar field__
+  * _Simon Masson, Antonio Sanso and Zhenfei Zhang_
+  * Designs, Codes and Cryptography. [IACR eprint](https://eprint.iacr.org/2021/1152). [Github](https://github.com/zhenfeizhang/bandersnatch).
+
+* __Jolt-b: recursion friendly Jolt with basefold commitment__
+  * Hang Su, Qi Yang, Zhenfei Zhang
+  * [IACR eprint](https://eprint.iacr.org/2024/1131)
+
+* __Ceno: Non-uniform, Segment and Parallel Zero-knowledge Virtual Machine__
+  * Tianyi Liu, Zhenfei Zhang, Yuncong Zhang, Wenqing Hu, Ye Zhang
+  * [IACR eprint](https://eprint.iacr.org/2024/387).
 
 
 2023
@@ -248,11 +259,6 @@ See next pages for the full list of patents, standards and publications.
 
 2021
 -------
-* __Bandersnatch: a fast elliptic curve built over the BLS12-381 scalar field__
-  * _Simon Masson, Antonio Sanso and Zhenfei Zhang_
-  * Pre-print. [IACR eprint](https://eprint.iacr.org/2021/1152). [Github](https://github.com/zhenfeizhang/bandersnatch).
-
-
 * __Manta: a Plug and Play Private DeFi Stack__
   * _Shumo Chu and Yu Xia and Zhenfei Zhang_
   * Pre-print. [IACR eprint](https://eprint.iacr.org/2021/743). [Source code](https://github.com/Manta-Network/).
