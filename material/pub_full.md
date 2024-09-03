@@ -5,6 +5,10 @@ title: Publications
 
 2024
 -------
+* __Bandersnatch: a fast elliptic curve built over the BLS12-381 scalar field__
+  * _Simon Masson, Antonio Sanso and Zhenfei Zhang_
+  * Designs, Codes and Cryptography. [IACR eprint](https://eprint.iacr.org/2021/1152). [Github](https://github.com/zhenfeizhang/bandersnatch).
+
 * __Jolt-b: recursion friendly Jolt with basefold commitment__
   * Hang Su, Qi Yang, Zhenfei Zhang
   * [IACR eprint](https://eprint.iacr.org/2024/1131)
@@ -19,11 +23,11 @@ title: Publications
 
 * __Chipmunk: Better Synchronized Multi-Signatures from Lattices__
   * _Nils Fleischhacker, Gottfried Herold, Mark Simkin and Zhenfei Zhang_
-  * ACM CCS 2023.
+  * ACM CCS 2023. [IACR eprint](https://eprint.iacr.org/2023/1820). [Github](https://github.com/GottfriedHerold/Chipmunk).
 
 * __HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates__
   * _Binyi Chen, Benedikt Bünz, Dan Boneh and Zhenfei Zhang_
-  * Eurocrypt 2023. [IACR eprint](https://eprint.iacr.org/2022/1355), [github](https://github.com/EspressoSystems/hyperplonk).
+  * Eurocrypt 2023. [IACR eprint](https://eprint.iacr.org/2022/1355), [Github](https://github.com/EspressoSystems/hyperplonk).
 
 * __VERI-ZEXE: Decentralized Private Computation with Universal Setup__
   * _Alex Luoyuan Xiong, Binyi Chen, Zhenfei Zhang, Benedikt Bünz, Ben Fisch, Fernando Krell and Philippe Camacho_
@@ -45,10 +49,6 @@ title: Publications
 
 2021
 -------
-* __Bandersnatch: a fast elliptic curve built over the BLS12-381 scalar field__
-  * _Simon Masson, Antonio Sanso and Zhenfei Zhang_
-  * [IACR eprint](https://eprint.iacr.org/2021/1152). [Github](https://github.com/zhenfeizhang/bandersnatch).
-
 * __Manta: a Plug and Play Private DeFi Stack__
   * _Shumo Chu and Yu Xia and Zhenfei Zhang_
   * [IACR eprint](https://eprint.iacr.org/2021/743). [Github](https://github.com/Manta-Network/).
