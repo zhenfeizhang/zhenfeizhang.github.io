@@ -25,7 +25,7 @@ title: Highlight of projects
 
 - ZK applications
   - Ceno: building zkVMs with GKR provers
-    - [paper](https://eprint.iacr.org/2024/1131)
+    - [paper](https://eprint.iacr.org/2024/1131). [GitHub](https://github.com/scroll-tech/ceno).
   - Poseidon hash circuit: first place of ZPRIZE competition
     - The [challenge](https://www.zprize.io/prizes/accelerating-the-poseidon-hash-function) and the [result announcement](https://twitter.com/z_prize/status/1600173479134990337).
   - VeriZexe: achieving functional privacy for smart contracts

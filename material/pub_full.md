@@ -5,6 +5,11 @@ title: Publications
 
 2024
 -------
+
+* __Ceno: Non-uniform, Segment and Parallel Zero-knowledge Virtual Machine__
+  * Tianyi Liu, Zhenfei Zhang, Yuncong Zhang, Wenqing Hu, and Ye Zhang
+  * Journal of Cryptology. [IACR eprint](https://eprint.iacr.org/2024/387). [GitHub](https://github.com/scroll-tech/ceno).
+
 * __Bandersnatch: a fast elliptic curve built over the BLS12-381 scalar field__
   * _Simon Masson, Antonio Sanso and Zhenfei Zhang_
   * Designs, Codes and Cryptography. [IACR eprint](https://eprint.iacr.org/2021/1152). [Github](https://github.com/zhenfeizhang/bandersnatch).
@@ -12,11 +17,6 @@ title: Publications
 * __Jolt-b: recursion friendly Jolt with basefold commitment__
   * Hang Su, Qi Yang, Zhenfei Zhang
   * [IACR eprint](https://eprint.iacr.org/2024/1131)
-
-
-* __Ceno: Non-uniform, Segment and Parallel Zero-knowledge Virtual Machine__
-  * Tianyi Liu, Zhenfei Zhang, Yuncong Zhang, Wenqing Hu, and Ye Zhang
-  * [IACR eprint](https://eprint.iacr.org/2024/387)
 
 2023
 ------- 

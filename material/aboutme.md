@@ -7,12 +7,12 @@ Previously I worked for (listed Alphabetically): [Algorand](https://algorand.com
 
 You may be interested in the libraries that I recently (co-)developed:
 [Ark-Spartan](https://github.com/arkworks-rs/spartan) ([Jolt](https://github.com/a16z/jolt)'s backend),
+[ceno](https://github.com/scroll-tech/ceno),
 [Expander](https://github.com/PolyhedraZK/Expander-rs), 
 [HyperPlonk](https://github.com/EspressoSystems/hyperplonk),
 [Jellyfish](https://github.com/SpectrumXYZ/jellyfish),
 [Squirrel](https://github.com/zhenfeizhang/sync_multi_sig),
 [pasta-solidity](https://github.com/zhenfeizhang/pasta-solidity),
-[parallel-zkvm](https://github.com/scroll-tech/singer),
 [VeriZexe](https://github.com/EspressoSystems/veri-zexe).
 For more projects see [CV](../cv/output/cv.pdf) or
 [highlights of projects](https://zhenfeizhang.github.io/material/projects/).

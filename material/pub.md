@@ -5,6 +5,10 @@ title: Selected Publications
 
 For a full list of publications, see [here](https://zhenfeizhang.github.io/material/pub_full/)
 
+* __Ceno: Non-uniform, Segment and Parallel Zero-knowledge Virtual Machine__
+  * Tianyi Liu, Zhenfei Zhang, Yuncong Zhang, Wenqing Hu, and Ye Zhang
+  * Journal of Cryptology. 2024. [IACR eprint](https://eprint.iacr.org/2024/387). [GitHub](https://github.com/scroll-tech/ceno).
+
 * __Chipmunk: Better Synchronized Multi-Signatures from Lattices__
   * _Nils Fleischhacker, Gottfried Herold, Mark Simkin and Zhenfei Zhang_
   * ACM CCS 2023. [IACR eprint](https://eprint.iacr.org/2023/1820). [Github](https://github.com/GottfriedHerold/Chipmunk).

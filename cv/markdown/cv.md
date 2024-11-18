@@ -50,7 +50,7 @@ Standards
 : Internet draft: Quantum safe hybrid for [TLS 1.2](https://datatracker.ietf.org/doc/draft-whyte-qsh-tls12/) and [TLS 1.3](https://datatracker.ietf.org/doc/draft-whyte-qsh-tls13/).
 
 Publication
-: __30+__ peer reviewed paper at Eurocrypt 2023, Usenix 2023, ACM CCS 2023, 2022, 2020, Asiacrypt 2019, Crypto 2019, Asiacrypt 2018, PKC 2020, 2018, etc.;
+: __30+__ peer reviewed paper at Journal of Cryptology, Eurocrypt 2023, Usenix 2023, ACM CCS 2023, 2022, 2020, Asiacrypt 2019, Crypto 2019, Asiacrypt 2018, PKC 2020, 2018, etc.;
 : See next pages for full list.
 
 <!-- 
@@ -69,6 +69,9 @@ Programming Languages
 
 Open sourced libraries
 --------------------
+Ceno
+: Parallel zkVM build with GKR prover. [Source code](https://github.com/scroll-tech/ceno).
+
 HyperPlonk
 : Plonk with Linear-Time Prover and High-Degree Custom Gates. [Source code](https://github.com/EspressoSystems/hyperplonk).
 
@@ -218,6 +221,10 @@ See next pages for the full list of patents, standards and publications.
 2024
 -------
 
+* __Ceno: Non-uniform, Segment and Parallel Zero-knowledge Virtual Machine__
+  * Tianyi Liu, Zhenfei Zhang, Yuncong Zhang, Wenqing Hu, and Ye Zhang
+  * Journal of Cryptology. 2024. [IACR eprint](https://eprint.iacr.org/2024/387). [GitHub](https://github.com/scroll-tech/ceno).
+
 * __Bandersnatch: a fast elliptic curve built over the BLS12-381 scalar field__
   * _Simon Masson, Antonio Sanso and Zhenfei Zhang_
   * Designs, Codes and Cryptography. [IACR eprint](https://eprint.iacr.org/2021/1152). [Github](https://github.com/zhenfeizhang/bandersnatch).
@@ -225,11 +232,6 @@ See next pages for the full list of patents, standards and publications.
 * __Jolt-b: recursion friendly Jolt with basefold commitment__
   * Hang Su, Qi Yang, Zhenfei Zhang
   * [IACR eprint](https://eprint.iacr.org/2024/1131)
-
-* __Ceno: Non-uniform, Segment and Parallel Zero-knowledge Virtual Machine__
-  * Tianyi Liu, Zhenfei Zhang, Yuncong Zhang, Wenqing Hu, Ye Zhang
-  * [IACR eprint](https://eprint.iacr.org/2024/387).
-
 
 2023
 ------- 
