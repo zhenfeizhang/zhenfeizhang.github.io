@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhenfei Zhang - Publications</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Publication specific styles */
+        .publication-list {
+            padding: 0 3rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .full-list-banner {
+            background-color: var(--highlight);
+            padding: 1.5rem;
+            margin: 2rem 3rem;
+            border-radius: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid var(--border-color);
+        }
+
+        .view-full-list {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.75rem 1.5rem;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .view-full-list:hover {
+            background-color: var(--hover-color);
+        }
+
+        .publication-item {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .publication-item:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .publication-title {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: var(--text-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .publication-authors {
+            color: #64748b;
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+            font-style: italic;
+        }
+
+        .publication-venue {
+            font-weight: 500;
+            color: #64748b;
+            margin-bottom: 0.5rem;
+        }
+
+        .publication-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .publication-link {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.375rem 0.75rem;
+            background-color: var(--highlight);
+            color: var(--primary-color);
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .publication-link:hover {
+            background-color: #bfdbfe;
+        }
+
+        .highlight-note {
+            display: inline-block;
+            background-color: #fef3c7;
+            color: #92400e;
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            margin-top: 0.5rem;
+        }
+
+        .note {
+            font-size: 0.9rem;
+            color: #64748b;
+            margin-top: 0.5rem;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .publication-list {
+                padding: 0 1.5rem;
+            }
+            
+            .full-list-banner {
+                margin: 2rem 1.5rem;
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+            }
+            
+            .publication-links {
+                justify-content: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Zhenfei Zhang</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="publications-full.html">All Publications</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="publications">
+            <div class="section-header">
+                <h1>Selected Publications</h1>
+            </div>
+
+            <div class="full-list-banner">
+                <span>Looking for a complete list of publications?</span>
+                <a href="publications-full.html" class="view-full-list">View Full Publication List →</a>
+            </div>
+
+            <div class="publication-list">
+
+                <div class="publication-item">
+                    <div class="publication-title">Ceno: Non-uniform, Segment and Parallel Zero-knowledge Virtual Machine</div>
+                    <div class="publication-authors">Tianyi Liu, Zhenfei Zhang, Yuncong Zhang, Wenqing Hu, and Ye Zhang</div>
+                    <div class="publication-venue">Journal of Cryptology, 2024</div>
+                    <div class="publication-links">
+                        <a href="https://eprint.iacr.org/2024/387" class="publication-link">IACR ePrint</a>
+                        <a href="https://github.com/scroll-tech/ceno" class="publication-link">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-title">Chipmunk: Better Synchronized Multi-Signatures from Lattices</div>
+                    <div class="publication-authors">Nils Fleischhacker, Gottfried Herold, Mark Simkin and Zhenfei Zhang</div>
+                    <div class="publication-venue">ACM CCS 2023</div>
+                    <div class="publication-links">
+                        <a href="https://eprint.iacr.org/2023/1820" class="publication-link">IACR ePrint</a>
+                        <a href="https://github.com/GottfriedHerold/Chipmunk" class="publication-link">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-title">HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates</div>
+                    <div class="publication-authors">Binyi Chen, Benedikt Bünz, Dan Boneh and Zhenfei Zhang</div>
+                    <div class="publication-venue">Eurocrypt 2023</div>
+                    <div class="publication-links">
+                        <a href="https://eprint.iacr.org/2022/1355" class="publication-link">IACR ePrint</a>
+                        <a href="https://github.com/EspressoSystems/hyperplonk" class="publication-link">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-title">VERI-ZEXE: Decentralized Private Computation with Universal Setup</div>
+                    <div class="publication-authors">Alex Luoyuan Xiong, Binyi Chen, Zhenfei Zhang, Benedikt Bünz, Ben Fisch, Fernando Krell and Philippe Camacho</div>
+                    <div class="publication-venue">USENIX Security 2023</div>
+                    <div class="publication-links">
+                        <a href="https://eprint.iacr.org/2022/802" class="publication-link">IACR ePrint</a>
+                        <a href="https://github.com/EspressoSystems/veri-zexe" class="publication-link">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-title">Squirrel: Efficient Synchronized Multi-Signatures from Lattices</div>
+                    <div class="publication-authors">Nils Fleischhacker, Mark Simkin and Zhenfei Zhang</div>
+                    <div class="publication-venue">ACM CCS 2022</div>
+                    <div class="publication-links">
+                        <a href="https://eprint.iacr.org/2022/694" class="publication-link">IACR ePrint</a>
+                        <a href="https://github.com/zhenfeizhang/sync_multi_sig" class="publication-link">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-title">Post-Quantum Verifiable Random Function from Symmetric Primitives in PoS Blockchain</div>
+                    <div class="publication-authors">Maxime Buser, Rafael Dowsley, Muhammed F. Esgin, Shabnam Kasra Kermanshahi, Veronika Kuchta, Joseph K. Liu, Raphael Phan, Zhenfei Zhang</div>
+                    <div class="publication-venue">ESORICS 2022</div>
+                    <div class="publication-links">
+                        <a href="https://eprint.iacr.org/2021/302" class="publication-link">IACR ePrint</a>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-title">Practical Post-Quantum Few-Time Verifiable Random Function with Applications to Algorand</div>
+                    <div class="publication-authors">Muhammed F. Esgin, Veronika Kuchta, Amin Sakzad, Ron Steinfeld, Zhenfei Zhang, Shifeng Sun, Shumo Chu</div>
+                    <div class="publication-venue">Financial Cryptography 2021</div>
+                    <div class="publication-links">
+                        <a href="https://eprint.iacr.org/2020/1222" class="publication-link">IACR ePrint</a>
+                        <a href="https://github.com/zhenfeizhang/lb-vrf" class="publication-link">Source Code</a>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-title">Pointproofs: Aggregating Proofs for Multiple Vector Commitments</div>
+                    <div class="publication-authors">Sergey Gorbunov, Leonid Reyzin, Hoeteck Wee, Zhenfei Zhang</div>
+                    <div class="publication-venue">ACM CCS 2020</div>
+                    <div class="publication-links">
+                        <a href="https://eprint.iacr.org/2020/419" class="publication-link">IACR ePrint</a>
+                        <a href="https://github.com/algorand/pointproofs" class="publication-link">Source Code</a>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-title">MPSign: A Signature from Small-Secret Middle-Product Learning with Errors</div>
+                    <div class="publication-authors">Shi Bai, Dipayan Das, Ryo Hiromasa, Miruna Rosca, Amin Sakzad, Damien Stehle, Ron Steinfeld, Zhenfei Zhang</div>
+                    <div class="publication-venue">PKC 2020</div>
+                    <div class="publication-links">
+                        <a href="https://eprint.iacr.org/2020/198" class="publication-link">IACR ePrint</a>
+                        <a href="https://github.com/pqc-ntrust/middle-product-LWE-signature" class="publication-link">Source Code</a>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-title">BLS Signatures</div>
+                    <div class="publication-authors">Dan Boneh, Sergey Gorbonov, Riad Wahby, Hoeteck Wee, Zhenfei Zhang</div>
+                    <div class="publication-venue">Internet Draft, IETF CFRG Working Group</div>
+                    <div class="publication-links">
+                        <a href="https://tools.ietf.org/html/draft-irtf-cfrg-bls-signature-04" class="publication-link">I-D</a>
+                        <a href="https://github.com/cfrg/draft-irtf-cfrg-bls-signature" class="publication-link">Source Code</a>
+                        <a href="https://github.com/algorand/bls_sigs_ref" class="publication-link">Reference Implementation</a>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-title">Middle-Product Learning with Rounding Problem and its Applications</div>
+                    <div class="publication-authors">Shi Bai, Katharina Boudgoust, Dipayan Das, Adeline Roux-Langlois, Weiqiang Wen, Zhenfei Zhang</div>
+                    <div class="publication-venue">Asiacrypt 2019</div>
+                    <div class="publication-links">
+                        <a href="https://eprint.iacr.org/2019/1001" class="publication-link">IACR ePrint</a>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-title">Efficient Lattice-Based Zero-Knowledge Arguments with Standard Soundness: Construction and Applications</div>
+                    <div class="publication-authors">Rupeng Yang, Man Ho Au, Zhenfei Zhang, Qiuliang Xu, Zuoxia Yu, William Whyte</div>
+                    <div class="publication-venue">Crypto 2019</div>
+                    <div class="publication-links">
+                        <a href="https://eprint.iacr.org/2019/747" class="publication-link">IACR ePrint</a>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-title">On the Hardness of the Computational Ring-LWR Problem and its Applications</div>
+                    <div class="publication-authors">Long Chen, Zhenfeng Zhang, Zhenfei Zhang</div>
+                    <div class="publication-venue">Asiacrypt 2018</div>
+                    <div class="publication-links">
+                        <a href="https://eprint.iacr.org/2018/536" class="publication-link">IACR ePrint</a>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-title">Choosing parameters for NTRUEncrypt</div>
+                    <div class="publication-authors">Jeffrey Hoffstein, Jill Pipher, John M. Schanck, Joseph H. Silverman, William Whyte, Zhenfei Zhang</div>
+                    <div class="publication-venue">CT-RSA 2017</div>
+                    <div class="publication-links">
+                        <a href="https://eprint.iacr.org/2015/708" class="publication-link">IACR ePrint</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
