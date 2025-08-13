@@ -60,9 +60,14 @@
         <div class="container">
             <section class="content-section">
                 <h1>Technique Blogs</h1>
+                <p class="subtitle" style="color:#64748b; margin-bottom:2rem;">Things that make sense but don't warrant academic publication.</p>
                 <ul class="blog-list">
-                    <li class="blog-card" onclick="openBlog('groth16_wasm.md')">
-                        <div class="blog-title">Faster Client-Side Groth16 Proving in the Browser</div>
+                    <li class="blog-card" onclick="openBlog('groth16_wasm.md')" id="blog-groth16_wasm">
+                        <div class="blog-title">Fast Client-Side Groth16 Prover</div>
+                        <div class="blog-desc" style="color:#64748b; font-size:0.98em;">
+                            Zcash Circuit in Under 3 Seconds
+                            <br><span class="reading-time" style="font-size:0.95em; color:#8b8b8b;"></span>
+                        </div>
                     </li>
                     <!-- Add more blog posts here -->
                 </ul>
@@ -78,6 +83,25 @@
     function openBlog(mdFile) {
         window.location.href = `blog-view.html?file=${encodeURIComponent(mdFile)}`;
     }
+
+    // Dynamically calculate reading time for each blog card
+    function setReadingTime(blogId, mdFile) {
+        fetch(mdFile)
+            .then(response => response.text())
+            .then(md => {
+                const words = md.split(/\s+/).length;
+                const minutes = Math.max(1, Math.round(words / 200));
+                const timeText = `approx. ${minutes} min to read`;
+                const card = document.getElementById(blogId);
+                if (card) {
+                    const span = card.querySelector('.reading-time');
+                    if (span) span.textContent = timeText;
+                }
+            });
+    }
+
+    // Call for each blog card
+    setReadingTime('blog-groth16_wasm', 'groth16_wasm.md');
     </script>
 </body>
 </html>

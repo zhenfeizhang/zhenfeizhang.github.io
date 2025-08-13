@@ -10,7 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
     <style>
         .content-section {
-            max-width: 800px;
+            max-width: 1600px;
             margin: 2rem auto;
             padding: 2rem;
             background: var(--card-bg);
@@ -74,7 +74,7 @@
         fetch(mdFile)
             .then(response => response.text())
             .then(md => {
-                const html = marked.parse(md);
+                let html = marked.parse(md);
                 document.getElementById('blog-content').innerHTML = html;
                 document.querySelectorAll('#blog-content pre code').forEach(block => {
                     hljs.highlightElement(block);
