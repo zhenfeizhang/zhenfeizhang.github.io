@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs - Zhenfei Zhang</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- Highlight.js for code syntax highlighting -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <style>
+        .blog-list {
+            margin: 2rem 0;
+            padding: 0;
+            list-style: none;
+        }
+        .blog-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.25rem 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+            transition: box-shadow 0.2s, transform 0.2s;
+            cursor: pointer;
+        }
+        .blog-card:hover {
+            box-shadow: 0 4px 12px rgba(37,99,235,0.08);
+            transform: translateY(-2px);
+        }
+        .blog-title {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 0.25rem;
+        }
+        #blog-content {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Zhenfei Zhang</a>
+            <div class="nav-links">
+                <a href="blogs.html">Blogs</a>
+                <a href="index.html">Home</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <section class="content-section">
+                <h1>Technique Blogs</h1>
+                <ul class="blog-list">
+                    <li class="blog-card" onclick="openBlog('groth16_wasm.md')">
+                        <div class="blog-title">Faster Client-Side Groth16 Proving in the Browser</div>
+                    </li>
+                    <!-- Add more blog posts here -->
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container" style="text-align:center; padding:1rem 0;">
+            <p>&copy; 2025 Zhenfei Zhang</p>
+        </div>
+    </footer>
+    <script>
+    function openBlog(mdFile) {
+        window.location.href = `blog-view.html?file=${encodeURIComponent(mdFile)}`;
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post - Zhenfei Zhang</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <style>
+        .content-section {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .blog-title {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+        #blog-content h1 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        #blog-content h2 {
+            font-size: 1.05rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
+        #blog-content h3 {
+            font-size: 0.95rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Zhenfei Zhang</a>
+            <div class="nav-links">
+                <a href="blogs.html">Blogs</a>
+                <a href="index.html">Home</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <section class="content-section">
+                <div id="blog-content">
+                    <em>Loading blog post...</em>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container" style="text-align:center; padding:1rem 0;">
+            <p>&copy; 2025 Zhenfei Zhang</p>
+        </div>
+    </footer>
+    <script>
+    function getQueryParam(name) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(name);
+    }
+    const mdFile = getQueryParam('file');
+    if (mdFile) {
+        fetch(mdFile)
+            .then(response => response.text())
+            .then(md => {
+                const html = marked.parse(md);
+                document.getElementById('blog-content').innerHTML = html;
+                document.querySelectorAll('#blog-content pre code').forEach(block => {
+                    hljs.highlightElement(block);
+                });
+            });
+    } else {
+        document.getElementById('blog-content').innerHTML = '<em>No blog file specified.</em>';
+    }
+    </script>
+</body>
+</html>
