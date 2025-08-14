@@ -9,7 +9,7 @@ Zero-knowledge proofs (ZKPs) are increasingly vital for blockchain and privacy-p
 ## Parallelization for Browser Performance
 The first step for browser acceleration is parallelization. Inspired by [this article](https://web.dev/articles/webassembly-threads), I found the Rust approach complex, with thread pools managed via the WASM caller and multiple rounds of JS-WASM interaction. The C++ method is more natural: we can write parallelized code in C and wrap it with a simple API, requiring only a single call from WASM.
 
-The next step is to extract the computation-heavy components from Gnark and offload them to C. Below is a pseudocode for the Groth16 proving process:
+So the essential idea is to extract the computation-heavy components from Gnark and offload them to C. For people who are unfamiliar with Groth16, below is a pseudocode for its proving process:
 ```rust
 fn groth16_prove(circuit: &Circuit, witness: &[Fr], proving_key: &ProvingKey) -> Proof {
     // Step 1: Setup phase outputs (assumed already completed)
@@ -51,6 +51,8 @@ fn groth16_prove(circuit: &Circuit, witness: &[Fr], proving_key: &ProvingKey) ->
     return Proof{ a, b_g2, c}
 }
 ```
+Notice the clear separation between steps 2 and 3: everything before step 2 is primarily data preparation and gathering, while everything after step 3 is focused on intensive computation. This distinction is crucial for optimizing the workflow and offloading the heavy computation to faster environments.
+
 <svg width="900" height="400" xmlns="http://www.w3.org/2000/svg">
     <text x="450" y="20" font-size="22" text-anchor="middle" fill="#333" font-weight="bold">Groth16 In browser Prover Architecture</text>
   <defs>
@@ -94,7 +96,7 @@ fn groth16_prove(circuit: &Circuit, witness: &[Fr], proving_key: &ProvingKey) ->
 
 Go/gnark is used only to extract the witness and intermediate data (`gnark_output`). Go is well-suited for circuit logic and witness generation.
 Importantly, this approach allows us to reuse all existing gnark circuits, ensuring compatibility and flexibility for a wide range of applications.
-To be precise, we modify Gnark's proving function so that when an FFT (inside `compute_h`) or MSM call is made, the input to these calls is serialized into a buffer and the rest of the computation is skipped. This modified process is called WitnessExtraction. The entry point in Go remains almost identical:
+To be precise, we modify Gnark's proving function so that when an `FFT` (inside `compute_h`) or `MSM` call is made, the input to these calls is serialized into a buffer and the rest of the computation is skipped. This modified process is called WitnessExtraction. The entry point in Go remains almost identical:
 ```go
 // Prove generates the proof of knowledge of a r1cs with full witness (secret + public part).
 func Prove(
@@ -150,7 +152,7 @@ We then compile this function into WASM and achieve natural multi-thread speedup
 </table>
 </div>
 
-Prior to optimization, single-threaded performance was a major bottleneck: a single G1 MSM took 11 seconds, and Groth16 requires 4 G1 MSMs and 1 G2 MSM, resulting in over 60 seconds for proof generation. By leveraging multithreading across 16 cores, our optimized implementation achieves nearly a 16x speedup, dramatically reducing total proving time and making client-side Groth16 practical in the browser.
+Prior to optimization, single-threaded performance was a major bottleneck: a single G1 `MSM` took 11 seconds, and Groth16 requires 4 G1 `MSM`s and 1 G2 `MSM`, resulting in over 60 seconds for proof generation. By leveraging multithreading across 16 cores, our optimized implementation achieves nearly a 16x speedup, dramatically reducing total proving time and making client-side Groth16 practical in the browser.
 
 ---
 <div style="overflow-x:auto; margin: 1.5rem 0;">
@@ -176,7 +178,7 @@ Prior to optimization, single-threaded performance was a major bottleneck: a sin
 </table>
 </div>
 
-For end-to-end timing, note that computing BS1, Ar, and related steps takes less time than the corresponding MSMs of the same size in the previous benchmark. This is primarily because the witness is sparse—most scalars are less than 254 bits—making the underlying scalar multiplications significantly faster in practice.
+For end-to-end timing, note that computing `Bs1`, `Ar`, and related steps takes less time than the corresponding `MSM`s of the same size in the previous benchmark. This is primarily because the witness is sparse—most scalars are less than 254 bits—making the underlying scalar multiplications significantly faster in practice.
 
 ---
 
