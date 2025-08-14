@@ -1,6 +1,6 @@
 # Fast Client-Side Groth16 Prover: Zcash Circuit in Under 3 Seconds
 
-__tl;dr__: This framework enables proving 2^16 R1CS constraints in under 3 seconds in the browser, fully compatible with Gnark.
+__tl;dr__: This framework enables fast client-side Groth16 proving: 2^16 R1CS constraints can be processed in under 3 seconds directly in the browser. See the end of the document for detailed benchmark results and performance breakdowns.
 
 ## Background and Motivation
 Zero-knowledge proofs (ZKPs) are increasingly vital for blockchain and privacy-preserving applications. Yet, generating Groth16 proofs directly in the browser has historically been slow and impractical. Previous efforts to compile Go ([gnark](https://github.com/Consensys/gnark)) or Rust ([arkworks](https://github.com/arkworks-rs)) Groth16 provers to WASM resulted in single-threaded execution, leading to significant performance bottlenecks. For instance, proving a typical [Zcash-like circuit](https://zips.z.cash/protocol/protocol.pdf) with ~2^16 constraints could take about one minute in the browser—far too slow for a good user experience or for timely blockchain operations, where block finality is often just 10 seconds. As a result, private payment protocols on Ethereum are forced to rely on relayers (compromising privacy) or use fixed-size notes to work around these limitations.
@@ -178,10 +178,8 @@ Prior to optimization, single-threaded performance was a major bottleneck: a sin
 
 For end-to-end timing, note that computing BS1, Ar, and related steps takes less time than the corresponding MSMs of the same size in the previous benchmark. This is primarily because the witness is sparse—most scalars are less than 254 bits—making the underlying scalar multiplications significantly faster in practice.
 
-## Future Directions
-
 ---
 
-## Next Steps
+## Future Directions
 
 With parallelization already providing substantial speedups, the next frontier is leveraging WebGPU for even greater acceleration and scalability. Looking ahead, these optimization strategies are also highly relevant for other proof systems, such as Plonkish and GKR, enabling fast client-side proving across a broader range of protocols.
