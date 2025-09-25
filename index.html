@@ -15,7 +15,7 @@
         }
         
         .highlight-box {
-            margin: 2rem 0;
+            margin: 0.5rem 0;
             padding: 1.5rem 0;
         }
 
@@ -69,6 +69,27 @@
             margin: 0 auto;
             padding: 2rem;
         }
+
+        /* Focus areas styling - matches existing highlight-box */
+        .focus-areas {
+            margin: 0rem 0;
+            padding: 0rem 0;
+        }
+
+        .focus-areas ul {
+            margin: 1rem 0;
+            padding-left: 1.5rem;
+            line-height: 1.7;
+        }
+
+        .focus-areas li {
+            margin: 1rem 0;
+        }
+
+        .focus-areas strong {
+            font-weight: 600;
+            color: var(--text-color);
+        }
     </style>
 </head>
 <body>
@@ -88,24 +109,27 @@
         <div class="container">
             <section class="content-section" id="about">
                 <h1>Zhenfei Zhang</h1> 
-                <p class="subtitle">Cryptographer | Rust Engineer | 🐦: <a href="https://twitter.com/zhenfei_zhang">@zhenfei_zhang </a></p>
-
+                <p class="subtitle">Blockchain Architect | Cryptographer | Rust Engineer | 🐦: <a href="https://twitter.com/zhenfei_zhang">@zhenfei_zhang </a></p>
 
                 <div class="highlight-box">
-                    <p>I am a cryptographer. I write high-performance cryptography code and publish research in the field. 
+                    <p>I work on blockchain technology with a focus on cryptography. I develop high-performance cryptographic code and publish research in the field. 
                         My professional journey includes roles at leading blockchain companies:   
                         <a href="https://algorand.com">Algorand</a>,
                         <a href="https://www.espressosys.com/">Espresso</a>,
-                        <a href="https://crypto.ethereum.org/team">Ethereum Foundation</a> and
+                        <a href="https://crypto.ethereum.org/team">Ethereum Foundation</a>, and
                         <a href="https://scroll.io/">Scroll</a>.                     
                     </p>
-
-                    <p>I am currently on the market. I am looking for a cryptography engineering and/or reseach work.</p>
-
-                    <p>I organized the <a href="https://sumcheck-builders.polyhedra.network/">Sumcheck Builder Group</a>, fostering collaboration and innovation in Zero-Knowledge Proofs and Sum-Check Protocols through regular seminars.
-
-                    <p>I contributed to <a href="https://falcon-sign.info/">Falcon signature scheme</a>, a <a href="https://csrc.nist.gov/projects/post-quantum-cryptography">NIST PQC standard</a>. I also worked on 
+                    <p>I organized the <a href="https://sumcheck-builders.polyhedra.network/">Sumcheck Builder Group</a>, fostering collaboration and innovation in Zero-Knowledge Proofs and Sum-Check Protocols through regular seminars.</p>
+                    <p>I contributed to the <a href="https://falcon-sign.info/">Falcon signature scheme</a>, a <a href="https://csrc.nist.gov/projects/post-quantum-cryptography">NIST PQC standard</a>. I also worked on the 
                         <a href="https://tools.ietf.org/html/draft-boneh-bls-signature-00">BLS standard</a>.</p>  
+                </div>
+
+                <div class="focus-areas">
+                    <h2 class="section-title">Recent Focus Areas</h2>
+                    <ul>
+                        <li><strong>On-chain Verifiable AI:</strong> I pioneered this domain in 2020 with my <a href="https://eprint.iacr.org/2021/087">ZEN paper</a>. I advised <a href="https://www.accountablemagic.com/">Modulus Labs</a>, who productionized verifiable AI and were <a href="https://world.org/blog/announcements/modulus-labs-joins-tfh-support-applied-research-world">acquired by Worldcoin</a>. My most recent work is a <a href="https://eprint.iacr.org/2025/535">zkML framework</a> that can be integrated into PyTorch.</li>
+                        <li><strong>On-chain Private Payment Systems:</strong> I also began exploring this domain in 2020 and have multiple publications and software projects in this area, ranging from <a href="https://github.com/EspressoSystems/cap/blob/main/cap-specification.pdf">shielded address payment</a> protocols and <a href="https://eprint.iacr.org/2021/743">private decentralized exchange</a> protocols to <a href="https://eprint.iacr.org/2022/802">fully private on-chain smart contracts</a>.</li>
+                    </ul>
                 </div>
 
                 <div class="erdos-number">
@@ -115,11 +139,11 @@
                 </div>
                 <div class="erdos-number">
                     <a href="https://scholar.google.com.au/citations?user=RIwtjv0AAAAJ&hl=en" style="text-decoration: none; color: inherit;">
-                        h-index: <strong style="margin-left: 0.5rem;">25</strong>
+                        h-index: <strong style="margin-left: 0.5rem;">27</strong>
                     </a>
                 </div>
 
-                <div class="highlight-box">
+                <!-- <div class="highlight-box">
                     <h2 class="section-title">Recent Projects</h2>
                     <p>I've led and contributed to several key projects in cryptography and zero-knowledge systems:</p>
                     <div class="company-list">
@@ -130,9 +154,7 @@
                         <a href="https://github.com/EspressoSystems/veri-zexe" class="company-tag">VeriZexe</a>
                     </div>
                     <p>Explore the <a href="projects.html">complete projects list</a> for detailed information about these and other initiatives.</p>
-                </div>
-
-               
+                </div> -->
             </section>
         </div>
     </main>
