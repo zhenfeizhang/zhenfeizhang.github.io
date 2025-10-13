@@ -38,6 +38,20 @@
             font-size: 0.875rem;
             margin-top: 0.5rem;
         }
+
+        /* Project page styles */
+        .section-header h2 {
+            font-weight: bold;
+        }
+
+        .project-list strong {
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .project-list li {
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
@@ -70,69 +84,25 @@
             </ul>
         </section>
 
-        <!-- ZK Section -->
-        <section id="zkp">
+        <section id="Privacy">
             <div class="section-header">
-                <h2>Zero Knowledge Proofs</h2>
+                <h2>On-chain Privacy</h2>
             </div>
             <ul class="project-list">
-                <li>
-                    <strong>Ceno</strong> - Parallel zkVMs from GKR (Journal of Cryptology)
-                    [<a href="https://github.com/scroll-tech/ceno">GitHub</a>]
-                    [<a href="https://eprint.iacr.org/2024/387">Paper</a>]
-                </li>
-                <li>
-                    <strong>Sumcheck Builder Group</strong> - Advancing Zero-Knowledge Proofs and Sum-Check Protocols
-                    [<a href="https://sumcheck-builders.polyhedra.network/">Website</a>]
-                </li>
-                <li>
-                    <strong>Expander</strong> - Open-source GKR prover for large-scale parallel computing
-                    [<a href="https://github.com/PolyhedraZK/Expander">GitHub</a>]
-                </li>
-                <li>
-                    <strong>Poseidon Hash Circuit</strong> - ZPrize Winner
-                    [<a href="https://www.zprize.io/prizes/accelerating-the-poseidon-hash-function">Challenge</a>]
-                    [<a href="https://twitter.com/z_prize/status/1600173479134990337">Results</a>]
-                </li>
                 <li>
                     <strong>VeriZexe</strong> - Functional privacy for smart contracts
                     [<a href="https://github.com/EspressoSystems/veri-zexe">GitHub</a>]
                     [<a href="https://eprint.iacr.org/2022/802">Paper</a>]
                 </li>
-                <li>
-                    <strong>HyperPlonk</strong> - Plonk with Linear-Time Prover and High-Degree Custom Gates
-                    [<a href="https://github.com/EspressoSystems/hyperplonk">GitHub</a>]
-                    [<a href="https://eprint.iacr.org/2022/1355">Paper</a>]
-                </li>
-                <li>
-                    <strong>Jellyfish</strong> - Fast PLONK implementation with comprehensive features
-                    [<a href="https://github.com/SpectrumXYZ/jellyfish">GitHub</a>]
-                    [<a href="https://www.espressosys.com/blog/introducing-the-jellyfish-cryptography-library">Blog</a>]
-                </li>
-                <li>
-                    <strong>ArkSpartan</strong> - Spartan Prove System for Arkworks framework
-                    [<a href="https://github.com/zhenfeizhang/ark-spartan">GitHub</a>]
-                </li>
             </ul>
         </section>
 
 
-        <!-- Blockchain PQ Section -->
-        <section id="blockchain-pq">
+        <section id="Privacy">
             <div class="section-header">
-                <h2>Blockchain and Post-quantum Cryptography</h2>
+                <h2>Cryptography for Consensus</h2>
             </div>
             <ul class="project-list">
-                <li>
-                    <strong>Squirrel</strong> - Efficient Synchronized Multi-signatures from Lattices
-                    [<a href="https://github.com/zhenfeizhang/squirrel">GitHub</a>]
-                    [<a href="https://eprint.iacr.org/2022/694">Paper</a>]
-                </li>
-                <li>
-                    <strong>Chipmunk</strong> - Better Synchronized Multi-signatures from Lattices
-                    [<a href="https://github.com/GottfriedHerold/Chipmunk">GitHub</a>]
-                    [<a href="https://eprint.iacr.org/2023/1820">Paper</a>]
-                </li>
                 <li>
                     <strong>Lattice-based VRF</strong> - Verifiable Random Functions from Lattices
                     [<a href="https://github.com/zhenfeizhang/lb-vrf">GitHub</a>]
@@ -143,61 +113,27 @@
                     [<a href="https://eprint.iacr.org/2021/302">Paper</a>]
                 </li>
                 <li>
-                    <strong>Raptor Signature</strong> - Post-quantum Authentication Scheme
-                    [<a href="https://github.com/zhenfeizhang/raptor">GitHub</a>]
-                    [<a href="https://eprint.iacr.org/2018/857">Paper</a>]
-                </li>
-                <li>
-                    <strong>CS for Falcon Signature</strong> - Implementations in Rust and R1CS
-                    [<a href="https://github.com/zhenfeizhang/falcon-rust">Falcon-rust</a>]
-                    [<a href="https://github.com/zhenfeizhang/falcon-r1cs">Falcon-r1cs</a>]
-                </li>
-            </ul>
-        </section>
-
-        <!-- Blockchain Crypto Section -->
-        <section id="blockchain-crypto">
-            <div class="section-header">
-                <h2>Blockchain Cryptography</h2>
-            </div>
-            <ul class="project-list">
-                <li>
-                    <strong>Manta</strong> - Privacy Preserving Decentralized Exchange
-                    [<a href="https://manta.network">Website</a>]
-                    [<a href="https://github.com/Manta-Network">GitHub</a>]
-                    [<a href="https://eprint.iacr.org/2020/1607">Paper</a>]
-                </li>
-                <li>
-                    <strong>Pointproofs</strong> - Efficient vector commitment scheme
-                    [<a href="https://github.com/algorand/pointproofs">GitHub</a>]
-                    [<a href="https://eprint.iacr.org/2020/419">Paper</a>]
-                    [<a href="https://www.algorand.com/resources/blog/pointproofs">Blog</a>]
-                </li>
-                <li>
                     <strong>BLS Signature</strong> - Standard and Reference implementation of BLS signatures (Eth 2.0 is not possible without BLS)
                     [<a href="https://github.com/algorand/bls_sigs_ref">GitHub</a>]
                     [<a href="https://crates.io/crates/bls_sigs_ref">Crate.io</a>]
                     [<a href="https://tools.ietf.org/html/draft-boneh-bls-signature-00">Draft</a>]
                 </li>
-                <li>
-                    <strong>Pixel Signature</strong> - Digital signatures for blockchains
-                    [<a href="https://github.com/algorand/pixel">GitHub</a>]
-                    [<a href="https://medium.com/algorand/digital-signatures-for-blockchains-5820e15fbe95">Article</a>]
-                </li>
+            </ul>
+        </section>
+
+        <section id="Solidity">
+            <div class="section-header">
+                <h2>Solidity</h2>
+            </div>
+
+            <ul class="project-list">
                 <li>
                     <strong>Pasta Curves</strong> - Solidity implementation of Pasta curves
                     [<a href="https://github.com/zhenfeizhang/pasta-solidity">GitHub</a>]
                 </li>
-                <li>
-                    <strong>Bandersnatch</strong> - Fast elliptic curve over BLS12-381 scalar field
-                    [<a href="https://ethresear.ch/t/introducing-bandersnatch-a-fast-elliptic-curve-built-over-the-bls12-381-scalar-field/9957">Research</a>]
-                    [<a href="https://github.com/zhenfeizhang/bandersnatch">GitHub</a>]
-                    [<a href="https://github.com/ethereum/go-verkle">Verkle</a>]
-                </li>
             </ul>
         </section>
 
-        <!-- NIST PQ Section -->
         <section id="nist-pq">
             <div class="section-header">
                 <h2>NIST Post-quantum Cryptography</h2>
@@ -207,34 +143,26 @@
                     <strong>Falcon Signature</strong> - NIST PQC Standard
                     [<a href="https://falcon-sign.info/">Website</a>]
                 </li>
-                <li>
-                    <strong>NTRU</strong> - 3rd Round Finalist
-                    [<a href="https://ntru.org">Website</a>]
-                </li>
-                <li>
-                    <strong>Round5 KEM/PKE</strong> - 2nd Round Candidate
-                    [<a href="https://round5.org/">Website</a>]
-                </li>
-                <li>
-                    <strong>LAC</strong> - 2nd Round Candidate
-                    [<a href="https://eprint.iacr.org/2018/1009.pdf">Paper</a>]
-                </li>
-                <li>
-                    <strong>pqNTRUSign</strong> - 1st Round Candidate
-                    [<a href="https://eprint.iacr.org/2019/1301">Paper</a>]
-                </li>
             </ul>
         </section>
 
-        <section id="systems-performance">
+
+
+        <!-- ZK Section -->
+        <section id="zkp">
             <div class="section-header">
-                <h2>Systems & Performance</h2>
+                <h2>Zero Knowledge Virtual Machines</h2>
             </div>
             <ul class="project-list">
                 <li>
-                    <strong>SynchedMemory</strong> - Lock-free thread-synchronized memory for coordinated parallel computing
-                    [<a href="https://zhenfeizhang.github.io/synched-memory/">Documentation</a>]
-                    [<a href="https://github.com/zhenfeizhang/synched-memory">GitHub</a>]
+                    <strong>Ceno</strong> - Parallel zkVMs from GKR (Journal of Cryptology)
+                    [<a href="https://github.com/scroll-tech/ceno">GitHub</a>]
+                    [<a href="https://eprint.iacr.org/2024/387">Paper</a>]
+                </li>
+                <li>
+                    <strong>ArkSpartan</strong> - Spartan Prove System for Arkworks framework; backend 
+                    for A16Z's Jolt zkVM and Nexus zkVM v1.
+                    [<a href="https://github.com/zhenfeizhang/ark-spartan">GitHub</a>]
                 </li>
             </ul>
         </section>
