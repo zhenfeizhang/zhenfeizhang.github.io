@@ -11,38 +11,44 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
     <style>
-        .blog-list {
-            margin: 2rem 0;
-            padding: 0;
-            list-style: none;
-        }
-        .blog-card {
-            background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            padding: 1.25rem 1.5rem;
-            margin-bottom: 1.5rem;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.07);
-            transition: box-shadow 0.2s, transform 0.2s;
-            cursor: pointer;
-        }
-        .blog-card:hover {
-            box-shadow: 0 4px 12px rgba(37,99,235,0.08);
-            transform: translateY(-2px);
-        }
-        .blog-title {
-            font-size: 1.15rem;
-            font-weight: 600;
+        .back-to-selected {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.75rem 1.5rem;
+            margin: 2rem 3rem;
+            background-color: var(--highlight);
             color: var(--primary-color);
-            margin-bottom: 0.25rem;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: all 0.2s;
         }
-        #blog-content {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 2rem;
-            background: var(--card-bg);
-            border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        .back-to-selected:hover {
+            background-color: #bfdbfe;
+        }
+    
+        @media (max-width: 768px) {
+            .back-to-selected {
+                margin: 1.5rem;
+            }
+        }
+        .highlight-note {
+            display: inline-block;
+            background-color: #fef3c7;
+            color: #92400e;
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            margin-top: 0.5rem;
+        }
+        .blog-desc {
+            color: #64748b;
+            font-size: 0.98em;
+        }
+
+        .reading-time {
+            font-size: 0.95em;
+            color: #8b8b8b;
         }
     </style>
 </head>
@@ -51,28 +57,25 @@
         <div class="container nav-container">
             <a href="index.html" class="logo">Zhenfei Zhang</a>
             <div class="nav-links">
-                <a href="blogs.html">Blogs</a>
                 <a href="index.html">Home</a>
+                <a href="blogs.html">Blogs</a>
             </div>
         </div>
     </nav>
-    <main>
-        <div class="container">
-            <section class="content-section">
+    <main class="container">
+        <section id="blogs">
+            <div class="section-header">
                 <h1>Technique Blogs</h1>
-                <p class="subtitle" style="color:#64748b; margin-bottom:2rem;">Things that make sense but don't warrant academic publication.</p>
-                <ul class="blog-list">
-                    <li class="blog-card" onclick="openBlog('groth16_wasm.md')" id="blog-groth16_wasm">
-                        <div class="blog-title">Fast Client-Side Groth16 Prover</div>
-                        <div class="blog-desc" style="color:#64748b; font-size:0.98em;">
-                            Zcash Circuit in Under 3 Seconds
-                            <br><span class="reading-time" style="font-size:0.95em; color:#8b8b8b;"></span>
-                        </div>
-                    </li>
-                    <!-- Add more blog posts here -->
-                </ul>
-            </section>
-        </div>
+                <p style="color:#64748b; margin-bottom:2rem;">Things that make sense but don't warrant academic publication.</p>
+            </div>
+            <ul class="project-list">
+                <li>
+                    <strong><a href="blog-view.html?file=groth16_wasm.md">Fast Client-Side Groth16 Prover</a></strong> - Zcash Circuit in Under 3 Seconds
+                    <span class="reading-time" id="reading-time-groth16" style="margin-left: 0.5rem;"></span>
+                </li>
+                <!-- Add more blog posts here -->
+            </ul>
+        </section>
     </main>
     <footer>
         <div class="container" style="text-align:center; padding:1rem 0;">
@@ -80,28 +83,24 @@
         </div>
     </footer>
     <script>
-    function openBlog(mdFile) {
-        window.location.href = `blog-view.html?file=${encodeURIComponent(mdFile)}`;
-    }
-
-    // Dynamically calculate reading time for each blog card
-    function setReadingTime(blogId, mdFile) {
+    // Dynamically calculate reading time for blog posts
+    function setReadingTime(elementId, mdFile) {
         fetch(mdFile)
             .then(response => response.text())
             .then(md => {
                 const words = md.split(/\s+/).length;
                 const minutes = Math.max(1, Math.round(words / 200));
-                const timeText = `approx. ${minutes} min to read`;
-                const card = document.getElementById(blogId);
-                if (card) {
-                    const span = card.querySelector('.reading-time');
-                    if (span) span.textContent = timeText;
-                }
+                const timeText = `(~${minutes} min read)`;
+                const span = document.getElementById(elementId);
+                if (span) span.textContent = timeText;
+            })
+            .catch(() => {
+                // Silently ignore errors
             });
     }
 
-    // Call for each blog card
-    setReadingTime('blog-groth16_wasm', 'groth16_wasm.md');
+    // Calculate reading time for blog posts
+    setReadingTime('reading-time-groth16', 'groth16_wasm.md');
     </script>
 </body>
 </html>

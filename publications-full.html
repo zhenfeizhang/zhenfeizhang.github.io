@@ -6,88 +6,6 @@
     <title>Zhenfei Zhang - Full Publication List</title>
     <link rel="stylesheet" href="css/styles.css">
     <style>
-        /* Publication specific styles */
-        .publication-list {
-            padding: 0 3rem;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .publication-item {
-            margin-bottom: 2rem;
-            padding: 1.5rem;
-            background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            transition: all 0.3s ease;
-        }
-
-        .publication-item:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-        }
-
-        .publication-title {
-            font-weight: 600;
-            font-size: 1.1rem;
-            color: var(--text-color);
-            margin-bottom: 0.5rem;
-        }
-
-        .publication-authors {
-            color: #64748b;
-            font-size: 0.95rem;
-            margin-bottom: 0.5rem;
-            font-style: italic;
-        }
-
-        .publication-venue {
-            font-weight: 500;
-            color: #64748b;
-            margin-bottom: 0.5rem;
-        }
-
-        .publication-links {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-            margin-top: 1rem;
-        }
-
-        .publication-link {
-            display: inline-flex;
-            align-items: center;
-            padding: 0.375rem 0.75rem;
-            background-color: var(--highlight);
-            color: var(--primary-color);
-            text-decoration: none;
-            border-radius: 6px;
-            font-size: 0.875rem;
-            font-weight: 500;
-            transition: all 0.2s;
-        }
-
-        .publication-link:hover {
-            background-color: #bfdbfe;
-        }
-
-        .year-section {
-            margin: 4rem 0;
-        }
-
-        .year-section:first-of-type {
-            margin-top: 2rem;
-        }
-
-        .year-header {
-            color: var(--primary-color);
-            font-size: 2rem;
-            font-weight: 700;
-            margin: 0 3rem 2rem;
-            padding-bottom: 0.5rem;
-            border-bottom: 2px solid var(--border-color);
-        }
-
         .back-to-selected {
             display: inline-flex;
             align-items: center;
@@ -106,25 +24,9 @@
         }
 
         @media (max-width: 768px) {
-            .publication-list {
-                padding: 0 1.5rem;
-            }
-            
-            .year-header {
-                margin: 0 1.5rem 1.5rem;
-                font-size: 1.75rem;
-            }
-
             .back-to-selected {
                 margin: 1.5rem;
             }
-        }
-
-        /* Notes and additional information */
-        .note {
-            font-size: 0.9rem;
-            color: #64748b;
-            margin-top: 0.5rem;
         }
 
         .highlight-note {
@@ -143,8 +45,8 @@
         <div class="container nav-container">
             <a href="index.html" class="logo">Zhenfei Zhang</a>
             <div class="nav-links">
-                <a href="publications.html">Selected Publications</a>
                 <a href="index.html">Home</a>
+                <a href="publications.html">Selected Publications</a>
             </div>
         </div>
     </nav>
@@ -157,483 +59,383 @@
             </div>
 
             <!-- 2025 -->
-            <div class="year-section">
-                <h2 class="year-header">2025</h2>
-                <div class="publication-list">
-                    <div class="publication-item">
-                        <div class="publication-title">zkPyTorch: A Hierarchical Optimized Compiler for Zero-Knowledge Machine Learning</div>
-                        <div class="publication-authors">Tiancheng Xie, Tao Lu, Zhiyong Fang, Siqi Wang, Zhenfei Zhang, Yongzheng Jia, Dawn Song, Jiaheng Zhang</div>
-                        <!-- <div class="publication-venue">IACR ePrint 2025/535</div> -->
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2025/535" class="publication-link">IACR ePrint</a>
-                        </div>
-                    </div>
-                    <div class="publication-item">
-                        <div class="publication-title">GKR for Boolean Circuits with Sub-linear RAM Operations</div>
-                        <div class="publication-authors">Yuncong Hu, Chongrong Li, Zhi Qiu, Tiancheng Xie, Yue Ying, Jiaheng Zhang, Zhenfei Zhang</div>
-                        <!-- <div class="publication-venue">IACR ePrint 2025/535</div> -->
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2025/717" class="publication-link">IACR ePrint</a>
-                        </div>
-                    </div>
+            <section id="2025">
+                <div class="section-header">
+                    <h2>2025</h2>
                 </div>
-            </div>
+                <ul class="project-list">
+                    <li>
+                        <strong>zkPyTorch: A Hierarchical Optimized Compiler for Zero-Knowledge Machine Learning</strong><br>
+                        Tiancheng Xie, Tao Lu, Zhiyong Fang, Siqi Wang, Zhenfei Zhang, Yongzheng Jia, Dawn Song, Jiaheng Zhang
+                        [<a href="https://eprint.iacr.org/2025/535">Paper</a>]
+                    </li>
+                    <li>
+                        <strong>GKR for Boolean Circuits with Sub-linear RAM Operations</strong><br>
+                        Yuncong Hu, Chongrong Li, Zhi Qiu, Tiancheng Xie, Yue Ying, Jiaheng Zhang, Zhenfei Zhang
+                        [<a href="https://eprint.iacr.org/2025/717">Paper</a>]
+                    </li>
+                </ul>
+            </section>
 
             <!-- 2024 -->
-            <div class="year-section">
-                <h2 class="year-header">2024</h2>
-                <div class="publication-list">
-                    <div class="publication-item">
-                        <div class="publication-title">Ceno: Non-uniform, Segment and Parallel Zero-knowledge Virtual Machine</div>
-                        <div class="publication-authors">Tianyi Liu, Zhenfei Zhang, Yuncong Zhang, Wenqing Hu, and Ye Zhang</div>
-                        <div class="publication-venue">Journal of Cryptology</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2024/387" class="publication-link">IACR ePrint</a>
-                            <a href="https://github.com/scroll-tech/ceno" class="publication-link">GitHub</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">Bandersnatch: a fast elliptic curve built over the BLS12-381 scalar field</div>
-                        <div class="publication-authors">Simon Masson, Antonio Sanso and Zhenfei Zhang</div>
-                        <div class="publication-venue">Designs, Codes and Cryptography</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2021/1152" class="publication-link">IACR ePrint</a>
-                            <a href="https://github.com/zhenfeizhang/bandersnatch" class="publication-link">GitHub</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">Jolt-b: recursion friendly Jolt with basefold commitment</div>
-                        <div class="publication-authors">Hang Su, Qi Yang, Zhenfei Zhang</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2024/1131" class="publication-link">IACR ePrint</a>
-                        </div>
-                    </div>
+            <section id="2024">
+                <div class="section-header">
+                    <h2>2024</h2>
                 </div>
-            </div>
+                <ul class="project-list">
+                    <li>
+                        <strong>Ceno: Non-uniform, Segment and Parallel Zero-knowledge Virtual Machine</strong><br>
+                        Tianyi Liu, Zhenfei Zhang, Yuncong Zhang, Wenqing Hu, and Ye Zhang<br>
+                        <em>Journal of Cryptology</em>
+                        [<a href="https://eprint.iacr.org/2024/387">Paper</a>]
+                        [<a href="https://github.com/scroll-tech/ceno">GitHub</a>]
+                    </li>
+                    <li>
+                        <strong>Bandersnatch: a fast elliptic curve built over the BLS12-381 scalar field</strong><br>
+                        Simon Masson, Antonio Sanso and Zhenfei Zhang<br>
+                        <em>Designs, Codes and Cryptography</em>
+                        [<a href="https://eprint.iacr.org/2021/1152">Paper</a>]
+                        [<a href="https://github.com/zhenfeizhang/bandersnatch">GitHub</a>]
+                    </li>
+                    <li>
+                        <strong>Jolt-b: recursion friendly Jolt with basefold commitment</strong><br>
+                        Hang Su, Qi Yang, Zhenfei Zhang
+                        [<a href="https://eprint.iacr.org/2024/1131">Paper</a>]
+                    </li>
+                </ul>
+            </section>
 
             <!-- 2023 -->
-            <div class="year-section">
-                <h2 class="year-header">2023</h2>
-                <div class="publication-list">
-                    <div class="publication-item">
-                        <div class="publication-title">Chipmunk: Better Synchronized Multi-Signatures from Lattices</div>
-                        <div class="publication-authors">Nils Fleischhacker, Gottfried Herold, Mark Simkin and Zhenfei Zhang</div>
-                        <div class="publication-venue">ACM CCS 2023</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2023/1820" class="publication-link">IACR ePrint</a>
-                            <a href="https://github.com/GottfriedHerold/Chipmunk" class="publication-link">GitHub</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates</div>
-                        <div class="publication-authors">Binyi Chen, Benedikt Bünz, Dan Boneh and Zhenfei Zhang</div>
-                        <div class="publication-venue">Eurocrypt 2023</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2022/1355" class="publication-link">IACR ePrint</a>
-                            <a href="https://github.com/EspressoSystems/hyperplonk" class="publication-link">GitHub</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">VERI-ZEXE: Decentralized Private Computation with Universal Setup</div>
-                        <div class="publication-authors">Alex Luoyuan Xiong, Binyi Chen, Zhenfei Zhang, Benedikt Bünz, Ben Fisch, Fernando Krell and Philippe Camacho</div>
-                        <div class="publication-venue">USENIX Security 2023</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2022/802" class="publication-link">IACR ePrint</a>
-                            <a href="https://github.com/EspressoSystems/veri-zexe" class="publication-link">GitHub</a>
-                        </div>
-                    </div>
+            <section id="2023">
+                <div class="section-header">
+                    <h2>2023</h2>
                 </div>
-            </div>
+                <ul class="project-list">
+                    <li>
+                        <strong>Chipmunk: Better Synchronized Multi-Signatures from Lattices</strong><br>
+                        Nils Fleischhacker, Gottfried Herold, Mark Simkin and Zhenfei Zhang<br>
+                        <em>ACM CCS 2023</em>
+                        [<a href="https://eprint.iacr.org/2023/1820">Paper</a>]
+                        [<a href="https://github.com/GottfriedHerold/Chipmunk">GitHub</a>]
+                    </li>
+                    <li>
+                        <strong>HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates</strong><br>
+                        Binyi Chen, Benedikt Bünz, Dan Boneh and Zhenfei Zhang<br>
+                        <em>Eurocrypt 2023</em>
+                        [<a href="https://eprint.iacr.org/2022/1355">Paper</a>]
+                        [<a href="https://github.com/EspressoSystems/hyperplonk">GitHub</a>]
+                    </li>
+                    <li>
+                        <strong>VERI-ZEXE: Decentralized Private Computation with Universal Setup</strong><br>
+                        Alex Luoyuan Xiong, Binyi Chen, Zhenfei Zhang, Benedikt Bünz, Ben Fisch, Fernando Krell and Philippe Camacho<br>
+                        <em>USENIX Security 2023</em>
+                        [<a href="https://eprint.iacr.org/2022/802">Paper</a>]
+                        [<a href="https://github.com/EspressoSystems/veri-zexe">GitHub</a>]
+                    </li>
+                </ul>
+            </section>
 
             <!-- 2022 -->
-            <div class="year-section">
-                <h2 class="year-header">2022</h2>
-                <div class="publication-list">
-                    <div class="publication-item">
-                        <div class="publication-title">An SVP attack on Vortex</div>
-                        <div class="publication-authors">Zhenfei Zhang</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2022/1754" class="publication-link">IACR ePrint</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">Squirrel: Efficient Synchronized Multi-Signatures from Lattices</div>
-                        <div class="publication-authors">Nils Fleischhacker, Mark Simkin and Zhenfei Zhang</div>
-                        <div class="publication-venue">ACM CCS 2022</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2022/694" class="publication-link">IACR ePrint</a>
-                            <a href="https://github.com/zhenfeizhang/sync_multi_sig" class="publication-link">GitHub</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">Post-Quantum Verifiable Random Function from Symmetric Primitives in PoS Blockchain</div>
-                        <div class="publication-authors">Maxime Buser, Rafael Dowsley, Muhammed F. Esgin, Shabnam Kasra Kermanshahi, Veronika Kuchta, Joseph K. Liu, Raphael Phan, Zhenfei Zhang</div>
-                        <div class="publication-venue">ESORICS 2022</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2021/302" class="publication-link">IACR ePrint</a>
-                        </div>
-                    </div>
+            <section id="2022">
+                <div class="section-header">
+                    <h2>2022</h2>
                 </div>
-            </div>
+                <ul class="project-list">
+                    <li>
+                        <strong>An SVP attack on Vortex</strong><br>
+                        Zhenfei Zhang
+                        [<a href="https://eprint.iacr.org/2022/1754">Paper</a>]
+                    </li>
+                    <li>
+                        <strong>Squirrel: Efficient Synchronized Multi-Signatures from Lattices</strong><br>
+                        Nils Fleischhacker, Mark Simkin and Zhenfei Zhang<br>
+                        <em>ACM CCS 2022</em>
+                        [<a href="https://eprint.iacr.org/2022/694">Paper</a>]
+                        [<a href="https://github.com/zhenfeizhang/sync_multi_sig">GitHub</a>]
+                    </li>
+                    <li>
+                        <strong>Post-Quantum Verifiable Random Function from Symmetric Primitives in PoS Blockchain</strong><br>
+                        Maxime Buser, Rafael Dowsley, Muhammed F. Esgin, Shabnam Kasra Kermanshahi, Veronika Kuchta, Joseph K. Liu, Raphael Phan, Zhenfei Zhang<br>
+                        <em>ESORICS 2022</em>
+                        [<a href="https://eprint.iacr.org/2021/302">Paper</a>]
+                    </li>
+                </ul>
+            </section>
 
             <!-- 2021 -->
-            <div class="year-section">
-                <h2 class="year-header">2021</h2>
-                <div class="publication-list">
-                    <div class="publication-item">
-                        <div class="publication-title">Manta: a Plug and Play Private DeFi Stack</div>
-                        <div class="publication-authors">Shumo Chu and Yu Xia and Zhenfei Zhang</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2021/743" class="publication-link">IACR ePrint</a>
-                            <a href="https://github.com/Manta-Network/" class="publication-link">GitHub</a>
-                        </div>
-                        <div class="note">Check out the <a href="https://manta.network">Manta Project</a> that spined off from this paper.</div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">Practical Post-Quantum Few-Time Verifiable Random Function with Applications to Algorand</div>
-                        <div class="publication-authors">Muhammed F. Esgin, Veronika Kuchta, Amin Sakzad, Ron Steinfeld, Zhenfei Zhang, Shifeng Sun, Shumo Chu</div>
-                        <div class="publication-venue">Financial Cryptography 2021</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2020/1222" class="publication-link">IACR ePrint</a>
-                            <a href="https://github.com/zhenfeizhang/lb-vrf" class="publication-link">Source Code</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">TensorCrypto: High Throughput Acceleration of Lattice-based Cryptography Using Tensor Core on GPU</div>
-                        <div class="publication-authors">Wai-Kong Lee, Hwajeong Seo, Zhenfei Zhang and Seongoun Hwang</div>
-                        <div class="publication-venue">Pre-print</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2021/173" class="publication-link">IACR ePrint</a>
-                            <a href="https://github.com/benlwk/Tensorcrypto" class="publication-link">Source Code</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">Hybrid Dual Attack on LWE with Arbitrary Secrets</div>
-                        <div class="publication-authors">Lei Bi, Xianhui Lu, Junjie Luo, Kunpeng Wang and Zhenfei Zhang</div>
-                        <div class="publication-venue">Pre-print</div>
-                        <div class="publication-links">
-                            <a href="https://www.iacr.org/news/item/15521" class="publication-link">IACR News</a>
-                            <a href="https://github.com/BiLei121/hybrid-dual-estimator" class="publication-link">Estimator</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">ZEN: Efficient Zero-Knowledge Proofs for Neural Networks</div>
-                        <div class="publication-authors">Boyuan Feng, Lianke Qin, Zhenfei Zhang, Yufei Ding, Shumo Chu</div>
-                        <div class="publication-venue">Pre-print</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2021/087" class="publication-link">IACR ePrint</a>
-                            <a href="https://github.com/UCSB-TDS/ZEN" class="publication-link">Source Code</a>
-                        </div>
-                    </div>
+            <section id="2021">
+                <div class="section-header">
+                    <h2>2021</h2>
                 </div>
-            </div>
+                <ul class="project-list">
+                    <li>
+                        <strong>Manta: a Plug and Play Private DeFi Stack</strong><br>
+                        Shumo Chu and Yu Xia and Zhenfei Zhang
+                        [<a href="https://eprint.iacr.org/2021/743">IACR ePrint</a>]
+                        [<a href="https://github.com/Manta-Network/">GitHub</a>]
+                        <div class="note">Check out the <a href="https://manta.network">Manta Project</a> that spined off from this paper.</div>
+                    </li>
+                    <li>
+                        <strong>Practical Post-Quantum Few-Time Verifiable Random Function with Applications to Algorand</strong><br>
+                        Muhammed F. Esgin, Veronika Kuchta, Amin Sakzad, Ron Steinfeld, Zhenfei Zhang, Shifeng Sun, Shumo Chu<br>
+                        <em>Financial Cryptography 2021</em>
+                        [<a href="https://eprint.iacr.org/2020/1222">IACR ePrint</a>]
+                        [<a href="https://github.com/zhenfeizhang/lb-vrf">Source Code</a>]
+                    </li>
+                    <li>
+                        <strong>TensorCrypto: High Throughput Acceleration of Lattice-based Cryptography Using Tensor Core on GPU</strong><br>
+                        Wai-Kong Lee, Hwajeong Seo, Zhenfei Zhang and Seongoun Hwang<br>
+                        <em>Pre-print</em>
+                        [<a href="https://eprint.iacr.org/2021/173">IACR ePrint</a>]
+                        [<a href="https://github.com/benlwk/Tensorcrypto">Source Code</a>]
+                    </li>
+                    <li>
+                        <strong>Hybrid Dual Attack on LWE with Arbitrary Secrets</strong><br>
+                        Lei Bi, Xianhui Lu, Junjie Luo, Kunpeng Wang and Zhenfei Zhang<br>
+                        <em>Pre-print</em>
+                        [<a href="https://www.iacr.org/news/item/15521">IACR News</a>]
+                        [<a href="https://github.com/BiLei121/hybrid-dual-estimator">Estimator</a>]
+                    </li>
+                    <li>
+                        <strong>ZEN: Efficient Zero-Knowledge Proofs for Neural Networks</strong><br>
+                        Boyuan Feng, Lianke Qin, Zhenfei Zhang, Yufei Ding, Shumo Chu<br>
+                        <em>Pre-print</em>
+                        [<a href="https://eprint.iacr.org/2021/087">IACR ePrint</a>]
+                        [<a href="https://github.com/UCSB-TDS/ZEN">Source Code</a>]
+                    </li>
+                </ul>
+            </section>
 
             <!-- 2020 -->
-            <div class="year-section">
-                <h2 class="year-header">2020</h2>
-                <div class="publication-list">
-                    <div class="publication-item">
-                        <div class="publication-title">Manta: Privacy Preserving Decentralized Exchange</div>
-                        <div class="publication-authors">Shumo Chu, Qiudong Xia, Zhenfei Zhang</div>
-                        <div class="publication-venue">Pre-print</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2020/1607" class="publication-link">IACR ePrint</a>
-                            <a href="https://github.com/Manta-Network/" class="publication-link">GitHub</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">Pointproofs: Aggregating Proofs for Multiple Vector Commitments</div>
-                        <div class="publication-authors">Sergey Gorbunov, Leonid Reyzin, Hoeteck Wee, Zhenfei Zhang</div>
-                        <div class="publication-venue">ACM CCS 2020</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2020/419" class="publication-link">IACR ePrint</a>
-                            <a href="https://github.com/algorand/pointproofs" class="publication-link">Source Code</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">MPSign: A Signature from Small-Secret Middle-Product Learning with Errors</div>
-                        <div class="publication-authors">Shi Bai, Dipayan Das, Ryo Hiromasa, Miruna Rosca, Amin Sakzad, Damien Stehle, Ron Steinfeld, Zhenfei Zhang</div>
-                        <div class="publication-venue">PKC 2020</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2020/198" class="publication-link">IACR ePrint</a>
-                            <a href="https://github.com/pqc-ntrust/middle-product-LWE-signature" class="publication-link">Source Code</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">Modular Lattice Signatures, revisited</div>
-                        <div class="publication-authors">Dipayan Das, Jeffrey Hoffstein, Jill Pipher, William Whyte, Zhenfei Zhang</div>
-                        <div class="publication-venue">Design, Codes and Cryptography</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2019/1301" class="publication-link">IACR ePrint</a>
-                            <a href="https://github.com/zhenfeizhang/pqntrusign-nist-submission" class="publication-link">Source Code</a>
-                        </div>
+            <section id="2020">
+                <div class="section-header">
+                    <h2>2020</h2>
+                </div>
+                <ul class="project-list">
+                    <li>
+                        <strong>Manta: Privacy Preserving Decentralized Exchange</strong><br>
+                        Shumo Chu, Qiudong Xia, Zhenfei Zhang<br>
+                        <em>Pre-print</em>
+                        [<a href="https://eprint.iacr.org/2020/1607">IACR ePrint</a>]
+                        [<a href="https://github.com/Manta-Network/">GitHub</a>]
+                    </li>
+                    <li>
+                        <strong>Pointproofs: Aggregating Proofs for Multiple Vector Commitments</strong><br>
+                        Sergey Gorbunov, Leonid Reyzin, Hoeteck Wee, Zhenfei Zhang<br>
+                        <em>ACM CCS 2020</em>
+                        [<a href="https://eprint.iacr.org/2020/419">IACR ePrint</a>]
+                        [<a href="https://github.com/algorand/pointproofs">Source Code</a>]
+                    </li>
+                    <li>
+                        <strong>MPSign: A Signature from Small-Secret Middle-Product Learning with Errors</strong><br>
+                        Shi Bai, Dipayan Das, Ryo Hiromasa, Miruna Rosca, Amin Sakzad, Damien Stehle, Ron Steinfeld, Zhenfei Zhang<br>
+                        <em>PKC 2020</em>
+                        [<a href="https://eprint.iacr.org/2020/198">IACR ePrint</a>]
+                        [<a href="https://github.com/pqc-ntrust/middle-product-LWE-signature">Source Code</a>]
+                    </li>
+                    <li>
+                        <strong>Modular Lattice Signatures, revisited</strong><br>
+                        Dipayan Das, Jeffrey Hoffstein, Jill Pipher, William Whyte, Zhenfei Zhang<br>
+                        <em>Design, Codes and Cryptography</em>
+                        [<a href="https://eprint.iacr.org/2019/1301">IACR ePrint</a>]
+                        [<a href="https://github.com/zhenfeizhang/pqntrusign-nist-submission">Source Code</a>]
                         <div class="note">1st round, NIST post-quantum cryptography standardization process</div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">BLS Signatures</div>
-                        <div class="publication-authors">Dan Boneh, Sergey Gorbonov, Riad Wahby, Hoeteck Wee, Zhenfei Zhang</div>
-                        <div class="publication-venue">Internet Draft, IETF CFRG Working Group</div>
-                        <div class="publication-links">
-                            <a href="https://tools.ietf.org/html/draft-irtf-cfrg-bls-signature-04" class="publication-link">I-D</a>
-                            <a href="https://github.com/cfrg/draft-irtf-cfrg-bls-signature" class="publication-link">Source Code</a>
-                            <a href="https://github.com/algorand/bls_sigs_ref" class="publication-link">Reference Implementation</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                    </li>
+                    <li>
+                        <strong>BLS Signatures</strong><br>
+                        Dan Boneh, Sergey Gorbonov, Riad Wahby, Hoeteck Wee, Zhenfei Zhang<br>
+                        <em>Internet Draft, IETF CFRG Working Group</em>
+                        [<a href="https://tools.ietf.org/html/draft-irtf-cfrg-bls-signature-04">I-D</a>]
+                        [<a href="https://github.com/cfrg/draft-irtf-cfrg-bls-signature">Source Code</a>]
+                        [<a href="https://github.com/algorand/bls_sigs_ref">Reference Implementation</a>]
+                    </li>
+                </ul>
+            </section>
             <!-- 2019 -->
-            <div class="year-section">
-                <h2 class="year-header">2019</h2>
-                <div class="publication-list">
-                    <div class="publication-item">
-                        <div class="publication-title">Middle-Product Learning with Rounding Problem and its Applications</div>
-                        <div class="publication-authors">Shi Bai, Katharina Boudgoust, Dipayan Das, Adeline Roux-Langlois, Weiqiang Wen, Zhenfei Zhang</div>
-                        <div class="publication-venue">Asiacrypt 2019</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2019/1001" class="publication-link">IACR ePrint</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">Efficient Lattice-Based Zero-Knowledge Arguments with Standard Soundness: Construction and Applications</div>
-                        <div class="publication-authors">Rupeng Yang, Man Ho Au, Zhenfei Zhang, Qiuliang Xu, Zuoxia Yu, William Whyte</div>
-                        <div class="publication-venue">Crypto 2019</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2019/747" class="publication-link">IACR ePrint</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">(Linkable) Ring Signature from Hash-Then-One-Way Signature</div>
-                        <div class="publication-authors">Xingye Lu, Man Ho Au, Zhenfei Zhang</div>
-                        <div class="publication-venue">TrustCom 2019</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2019/567" class="publication-link">IACR ePrint</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">Ring Signatures based on Middle-Product Learning with Errors Problems</div>
-                        <div class="publication-authors">Dipayan Das, Man Ho Au, Zhenfei Zhang</div>
-                        <div class="publication-venue">Africacrypt 2019</div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">Raptor: A Practical Lattice-Based (Linkable) Ring Signature</div>
-                        <div class="publication-authors">Xingye Lu, Man Ho Au, Zhenfei Zhang</div>
-                        <div class="publication-venue">ACNS 2019</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2018/857" class="publication-link">IACR ePrint</a>
-                            <a href="https://github.com/zhenfeizhang/raptor" class="publication-link">Source Code</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">Round5: Compact and Fast Post-Quantum Public-Key Encryption</div>
-                        <div class="publication-authors">Hayo Baan, Sauvik Bhattacharya, Scott Fluhrer, Oscar Garcia-Morchon, Thijs Laarhoven, Ronald Rietman, Markku-Juhani O. Saarinen, Ludo Tolhuizen, Zhenfei Zhang</div>
-                        <div class="publication-venue">PQCrypto 2019</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2019/090.pdf" class="publication-link">IACR ePrint</a>
-                            <a href="https://round5.org" class="publication-link">Website</a>
-                        </div>
-                        <div class="note">2nd round, NIST post-quantum cryptography standardization process</div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">Cryptanalysis of an NTRU-based Proxy Encryption Scheme from ASIACCS'15</div>
-                        <div class="publication-authors">Zhen Liu, Yanbin Pan, Zhenfei Zhang</div>
-                        <div class="publication-venue">PQCrypto 2019</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2019/083.pdf" class="publication-link">IACR ePrint</a>
-                        </div>
-                    </div>
+            <section id="2019">
+                <div class="section-header">
+                    <h2>2019</h2>
                 </div>
-            </div>
+                <ul class="project-list">
+                    <li>
+                        <strong>Middle-Product Learning with Rounding Problem and its Applications</strong><br>
+                        Shi Bai, Katharina Boudgoust, Dipayan Das, Adeline Roux-Langlois, Weiqiang Wen, Zhenfei Zhang<br>
+                        <em>Asiacrypt 2019</em>
+                        [<a href="https://eprint.iacr.org/2019/1001">IACR ePrint</a>]
+                    </li>
+                    <li>
+                        <strong>Efficient Lattice-Based Zero-Knowledge Arguments with Standard Soundness: Construction and Applications</strong><br>
+                        Rupeng Yang, Man Ho Au, Zhenfei Zhang, Qiuliang Xu, Zuoxia Yu, William Whyte<br>
+                        <em>Crypto 2019</em>
+                        [<a href="https://eprint.iacr.org/2019/747">IACR ePrint</a>]
+                    </li>
+                    <li>
+                        <strong>(Linkable) Ring Signature from Hash-Then-One-Way Signature</strong><br>
+                        Xingye Lu, Man Ho Au, Zhenfei Zhang<br>
+                        <em>TrustCom 2019</em>
+                        [<a href="https://eprint.iacr.org/2019/567">IACR ePrint</a>]
+                    </li>
+                    <li>
+                        <strong>Ring Signatures based on Middle-Product Learning with Errors Problems</strong><br>
+                        Dipayan Das, Man Ho Au, Zhenfei Zhang<br>
+                        <em>Africacrypt 2019</em>
+                    </li>
+                    <li>
+                        <strong>Raptor: A Practical Lattice-Based (Linkable) Ring Signature</strong><br>
+                        Xingye Lu, Man Ho Au, Zhenfei Zhang<br>
+                        <em>ACNS 2019</em>
+                        [<a href="https://eprint.iacr.org/2018/857">IACR ePrint</a>]
+                        [<a href="https://github.com/zhenfeizhang/raptor">Source Code</a>]
+                    </li>
+                    <li>
+                        <strong>Round5: Compact and Fast Post-Quantum Public-Key Encryption</strong><br>
+                        Hayo Baan, Sauvik Bhattacharya, Scott Fluhrer, Oscar Garcia-Morchon, Thijs Laarhoven, Ronald Rietman, Markku-Juhani O. Saarinen, Ludo Tolhuizen, Zhenfei Zhang<br>
+                        <em>PQCrypto 2019</em>
+                        [<a href="https://eprint.iacr.org/2019/090.pdf">IACR ePrint</a>]
+                        [<a href="https://round5.org">Website</a>]
+                        <div class="note">2nd round, NIST post-quantum cryptography standardization process</div>
+                    </li>
+                    <li>
+                        <strong>Cryptanalysis of an NTRU-based Proxy Encryption Scheme from ASIACCS'15</strong><br>
+                        Zhen Liu, Yanbin Pan, Zhenfei Zhang<br>
+                        <em>PQCrypto 2019</em>
+                        [<a href="https://eprint.iacr.org/2019/083.pdf">IACR ePrint</a>]
+                    </li>
+                </ul>
+            </section>
 
             <!-- 2018 -->
-            <div class="year-section">
-                <h2 class="year-header">2018</h2>
-                <div class="publication-list">
-                    <div class="publication-item">
-                        <div class="publication-title">LAC: Practical Ring-LWE Based Public-Key Encryption with Byte-Level Modulus</div>
-                        <div class="publication-authors">Xianhui Lu, Yamin Liu, Zhenfei Zhang, Dingding Jia, Haiyang Xue, Jingnan He, Bao Li</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2018/1009" class="publication-link">IACR ePrint</a>
-                            <a href="https://github.com/luxianhui007/LAC" class="publication-link">Source Code</a>
-                        </div>
+            <section id="2018">
+                <div class="section-header">
+                    <h2>2018</h2>
+                </div>
+                <ul class="project-list">
+                    <li>
+                        <strong>LAC: Practical Ring-LWE Based Public-Key Encryption with Byte-Level Modulus</strong><br>
+                        Xianhui Lu, Yamin Liu, Zhenfei Zhang, Dingding Jia, Haiyang Xue, Jingnan He, Bao Li
+                        [<a href="https://eprint.iacr.org/2018/1009">IACR ePrint</a>]
+                        [<a href="https://github.com/luxianhui007/LAC">Source Code</a>]
                         <div class="highlight-note">First prize of Chinese post-quantum cryptography competition</div>
                         <div class="note">2nd round, NIST post-quantum cryptography standardization process</div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">Shorter Messages and Faster Post-Quantum Encryption with Round5 on Cortex M</div>
-                        <div class="publication-authors">Markku-Juhani O. Saarinen, Sauvik Bhattacharya, Oscar Garcia-Morchon, Ronald Rietman, Ludo Tolhuizen, Zhenfei Zhang</div>
-                        <div class="publication-venue">Cardis 2018</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2018/723" class="publication-link">IACR ePrint</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">On the Hardness of the Computational Ring-LWR Problem and its Applications</div>
-                        <div class="publication-authors">Long Chen, Zhenfeng Zhang, Zhenfei Zhang</div>
-                        <div class="publication-venue">Asiacrypt 2018</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2018/536" class="publication-link">IACR ePrint</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">A signature scheme from the finite field isomorphism problem</div>
-                        <div class="publication-authors">Jeffrey Hoffstein, Joseph H. Silverman, William Whyte, Zhenfei Zhang</div>
-                        <div class="publication-venue">MathCrypt 2018</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2018/675" class="publication-link">IACR ePrint</a>
-                            <a href="https://www.degruyter.com/view/journals/jmc/14/1/article-p39.xml" class="publication-link">Journal Version</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">Practical Signatures from the Partial Fourier Recovery Problem Revisited: A Provably-Secure and Gaussian-Distributed Construction</div>
-                        <div class="publication-authors">Xingye Lu, Zhenfei Zhang, Man Ho Au</div>
-                        <div class="publication-venue">ACISP 2018</div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">Optimizing polynomial convolution for NTRUEncrypt</div>
-                        <div class="publication-authors">Wei Dai, William Whyte, Zhenfei Zhang</div>
-                        <div class="publication-venue">IEEE Transaction on Computers</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2018/229" class="publication-link">IACR ePrint</a>
-                            <a href="https://github.com/zhenfeizhang/polynomial_mul" class="publication-link">Source Code</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">Fully Homomorphic Encryption from the Finite Field Isomorphism Problem</div>
-                        <div class="publication-authors">Yarkin Doröz, Jeffrey Hoffstein, Jill Pipher, Joseph H. Silverman, Berk Sunar, William Whyte, Zhenfei Zhang</div>
-                        <div class="publication-venue">PKC 2018</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2017/548" class="publication-link">IACR ePrint</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                    </li>
+                    <li>
+                        <strong>Shorter Messages and Faster Post-Quantum Encryption with Round5 on Cortex M</strong><br>
+                        Markku-Juhani O. Saarinen, Sauvik Bhattacharya, Oscar Garcia-Morchon, Ronald Rietman, Ludo Tolhuizen, Zhenfei Zhang<br>
+                        <em>Cardis 2018</em>
+                        [<a href="https://eprint.iacr.org/2018/723">IACR ePrint</a>]
+                    </li>
+                    <li>
+                        <strong>On the Hardness of the Computational Ring-LWR Problem and its Applications</strong><br>
+                        Long Chen, Zhenfeng Zhang, Zhenfei Zhang<br>
+                        <em>Asiacrypt 2018</em>
+                        [<a href="https://eprint.iacr.org/2018/536">IACR ePrint</a>]
+                    </li>
+                    <li>
+                        <strong>A signature scheme from the finite field isomorphism problem</strong><br>
+                        Jeffrey Hoffstein, Joseph H. Silverman, William Whyte, Zhenfei Zhang<br>
+                        <em>MathCrypt 2018</em>
+                        [<a href="https://eprint.iacr.org/2018/675">IACR ePrint</a>]
+                        [<a href="https://www.degruyter.com/view/journals/jmc/14/1/article-p39.xml">Journal Version</a>]
+                    </li>
+                    <li>
+                        <strong>Practical Signatures from the Partial Fourier Recovery Problem Revisited: A Provably-Secure and Gaussian-Distributed Construction</strong><br>
+                        Xingye Lu, Zhenfei Zhang, Man Ho Au<br>
+                        <em>ACISP 2018</em>
+                    </li>
+                    <li>
+                        <strong>Optimizing polynomial convolution for NTRUEncrypt</strong><br>
+                        Wei Dai, William Whyte, Zhenfei Zhang<br>
+                        <em>IEEE Transaction on Computers</em>
+                        [<a href="https://eprint.iacr.org/2018/229">IACR ePrint</a>]
+                        [<a href="https://github.com/zhenfeizhang/polynomial_mul">Source Code</a>]
+                    </li>
+                    <li>
+                        <strong>Fully Homomorphic Encryption from the Finite Field Isomorphism Problem</strong><br>
+                        Yarkin Doröz, Jeffrey Hoffstein, Jill Pipher, Joseph H. Silverman, Berk Sunar, William Whyte, Zhenfei Zhang<br>
+                        <em>PKC 2018</em>
+                        [<a href="https://eprint.iacr.org/2017/548">IACR ePrint</a>]
+                    </li>
+                </ul>
+            </section>
 
             <!-- 2017 and earlier -->
-            <div class="year-section">
-                <h2 class="year-header">2017 and Earlier</h2>
-                <div class="publication-list">
-                    <div class="publication-item">
-                        <div class="publication-title">Choosing parameters for NTRUEncrypt</div>
-                        <div class="publication-authors">Jeffrey Hoffstein, Jill Pipher, John M. Schanck, Joseph H. Silverman, William Whyte, Zhenfei Zhang</div>
-                        <div class="publication-venue">CT-RSA 2017</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2015/708" class="publication-link">IACR ePrint</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">Round2: KEM and PKE based on GLWR</div>
-                        <div class="publication-authors">Hayo Baan, Sauvik Bhattacharya, Óscar García-Morchón, Ronald Rietman, Ludo Tolhuizen, Jose Luis Torre-Arce, Zhenfei Zhang</div>
-                        <div class="publication-venue">NIST PQC submission</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2017/1183" class="publication-link">IACR ePrint</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">A signature scheme from Learning with Truncation</div>
-                        <div class="publication-authors">Jeffrey Hoffstein, Jill Pipher, William Whyte, Zhenfei Zhang</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2017/995" class="publication-link">IACR ePrint</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">Anonymous Announcement System (AAS) for Electric Vehicle in VANETs</div>
-                        <div class="publication-authors">Man Ho Au, Joseph K. Liu, Zhenfei Zhang, Willy Susilo, Jin Li</div>
-                        <div class="publication-venue">The Computer Journal</div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">Circuit-extension handshakes for Tor achieving forward secrecy in a quantum world</div>
-                        <div class="publication-authors">John M. Schanck, William Whyte, Zhenfei Zhang</div>
-                        <div class="publication-venue">PoPETs 2016</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2015/287" class="publication-link">IACR ePrint</a>
-                            <a href="https://github.com/NTRUOpenSourceProject/ntru-tor" class="publication-link">Source Code</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">NTRU modular lattice signature scheme on CUDA GPUs</div>
-                        <div class="publication-authors">Wei Dai, Berk Sunar, John M. Schanck, William Whyte, Zhenfei Zhang</div>
-                        <div class="publication-venue">HPCS 2016</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2016/471" class="publication-link">IACR ePrint</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">LLL for ideal lattices: re-evaluation of the security of Gentry-Halevi's FHE scheme</div>
-                        <div class="publication-authors">Thomas Plantard, Willy Susilo, Zhenfei Zhang</div>
-                        <div class="publication-venue">Design, Codes and Cryptography</div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">DA-Encrypt: Homomorphic Encryption via Non-Archimedean Diophantine Approximation</div>
-                        <div class="publication-authors">Jeffrey Hoffstein, Jill Pipher, John M. Schanck, Joseph H. Silverman, William Whyte, Zhenfei Zhang</div>
-                        <div class="publication-links">
-                            <a href="https://eprint.iacr.org/2015/844" class="publication-link">IACR ePrint</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">Fully Homomorphic Encryption Using Hidden Ideal Lattice</div>
-                        <div class="publication-authors">Thomas Plantard, Willy Susilo, Zhenfei Zhang</div>
-                        <div class="publication-venue">IEEE Transaction on Information Forensics and Security</div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">Adaptive Precision Floating Point LLL</div>
-                        <div class="publication-authors">Thomas Plantard, Willy Susilo, Zhenfei Zhang</div>
-                        <div class="publication-venue">ACISP 2013</div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">On the CCA-1 Security of Somewhat Homomorphic Encryption over the Integers</div>
-                        <div class="publication-authors">Zhenfei Zhang, Thomas Plantard, Willy Susilo</div>
-                        <div class="publication-venue">ISPEC 2012</div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">Lattice Reduction for Modular Knapsack</div>
-                        <div class="publication-authors">Thomas Plantard, Willy Susilo, Zhenfei Zhang</div>
-                        <div class="publication-venue">SAC 2012</div>
-                    </div>
-
-                    <div class="publication-item">
-                        <div class="publication-title">Reaction Attack on Outsourced Computing with Fully Homomorphic Encryption Schemes</div>
-                        <div class="publication-authors">Zhenfei Zhang, Thomas Plantard, Willy Susilo</div>
-                        <div class="publication-venue">ICISC 2011</div>
-                    </div>
+            <section id="2017">
+                <div class="section-header">
+                    <h2>2017 and Earlier</h2>
                 </div>
-            </div>
+                <ul class="project-list">
+                    <li>
+                        <strong>Choosing parameters for NTRUEncrypt</strong><br>
+                        Jeffrey Hoffstein, Jill Pipher, John M. Schanck, Joseph H. Silverman, William Whyte, Zhenfei Zhang<br>
+                        <em>CT-RSA 2017</em>
+                        [<a href="https://eprint.iacr.org/2015/708">IACR ePrint</a>]
+                    </li>
+                    <li>
+                        <strong>Round2: KEM and PKE based on GLWR</strong><br>
+                        Hayo Baan, Sauvik Bhattacharya, Óscar García-Morchón, Ronald Rietman, Ludo Tolhuizen, Jose Luis Torre-Arce, Zhenfei Zhang<br>
+                        <em>NIST PQC submission</em>
+                        [<a href="https://eprint.iacr.org/2017/1183">IACR ePrint</a>]
+                    </li>
+                    <li>
+                        <strong>A signature scheme from Learning with Truncation</strong><br>
+                        Jeffrey Hoffstein, Jill Pipher, William Whyte, Zhenfei Zhang
+                        [<a href="https://eprint.iacr.org/2017/995">IACR ePrint</a>]
+                    </li>
+                    <li>
+                        <strong>Anonymous Announcement System (AAS) for Electric Vehicle in VANETs</strong><br>
+                        Man Ho Au, Joseph K. Liu, Zhenfei Zhang, Willy Susilo, Jin Li<br>
+                        <em>The Computer Journal</em>
+                    </li>
+                    <li>
+                        <strong>Circuit-extension handshakes for Tor achieving forward secrecy in a quantum world</strong><br>
+                        John M. Schanck, William Whyte, Zhenfei Zhang<br>
+                        <em>PoPETs 2016</em>
+                        [<a href="https://eprint.iacr.org/2015/287">IACR ePrint</a>]
+                        [<a href="https://github.com/NTRUOpenSourceProject/ntru-tor">Source Code</a>]
+                    </li>
+                    <li>
+                        <strong>NTRU modular lattice signature scheme on CUDA GPUs</strong><br>
+                        Wei Dai, Berk Sunar, John M. Schanck, William Whyte, Zhenfei Zhang<br>
+                        <em>HPCS 2016</em>
+                        [<a href="https://eprint.iacr.org/2016/471">IACR ePrint</a>]
+                    </li>
+                    <li>
+                        <strong>LLL for ideal lattices: re-evaluation of the security of Gentry-Halevi's FHE scheme</strong><br>
+                        Thomas Plantard, Willy Susilo, Zhenfei Zhang<br>
+                        <em>Design, Codes and Cryptography</em>
+                    </li>
+                    <li>
+                        <strong>DA-Encrypt: Homomorphic Encryption via Non-Archimedean Diophantine Approximation</strong><br>
+                        Jeffrey Hoffstein, Jill Pipher, John M. Schanck, Joseph H. Silverman, William Whyte, Zhenfei Zhang
+                        [<a href="https://eprint.iacr.org/2015/844">IACR ePrint</a>]
+                    </li>
+                    <li>
+                        <strong>Fully Homomorphic Encryption Using Hidden Ideal Lattice</strong><br>
+                        Thomas Plantard, Willy Susilo, Zhenfei Zhang<br>
+                        <em>IEEE Transaction on Information Forensics and Security</em>
+                    </li>
+                    <li>
+                        <strong>Adaptive Precision Floating Point LLL</strong><br>
+                        Thomas Plantard, Willy Susilo, Zhenfei Zhang<br>
+                        <em>ACISP 2013</em>
+                    </li>
+                    <li>
+                        <strong>On the CCA-1 Security of Somewhat Homomorphic Encryption over the Integers</strong><br>
+                        Zhenfei Zhang, Thomas Plantard, Willy Susilo<br>
+                        <em>ISPEC 2012</em>
+                    </li>
+                    <li>
+                        <strong>Lattice Reduction for Modular Knapsack</strong><br>
+                        Thomas Plantard, Willy Susilo, Zhenfei Zhang<br>
+                        <em>SAC 2012</em>
+                    </li>
+                    <li>
+                        <strong>Reaction Attack on Outsourced Computing with Fully Homomorphic Encryption Schemes</strong><br>
+                        Zhenfei Zhang, Thomas Plantard, Willy Susilo<br>
+                        <em>ICISC 2011</em>
+                    </li>
+                </ul>
+            </section>
         </section>
     </main>
 </body>

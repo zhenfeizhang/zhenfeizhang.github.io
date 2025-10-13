@@ -53,7 +53,7 @@ fn groth16_prove(circuit: &Circuit, witness: &[Fr], proving_key: &ProvingKey) ->
 ```
 Notice the clear separation between steps 2 and 3: everything before step 2 is primarily data preparation and gathering, while everything after step 3 is focused on intensive computation. This distinction is crucial for optimizing the workflow and offloading the heavy computation to faster environments.
 
-<svg width="900" height="400" xmlns="http://www.w3.org/2000/svg">
+<svg width="700" height="400" xmlns="http://www.w3.org/2000/svg">
     <text x="450" y="20" font-size="22" text-anchor="middle" fill="#333" font-weight="bold">Groth16 In browser Prover Architecture</text>
   <defs>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">

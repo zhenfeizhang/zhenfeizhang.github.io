@@ -1,25 +1,28 @@
 /* Base Styles */
 :root {
-    --primary-color: #2563eb;
-    --hover-color: #1d4ed8;
-    --bg-color: #f8fafc;
-    --text-color: #1e293b;
-    --border-color: #e2e8f0;
+    --primary-color: #0000ee;
+    --hover-color: #551a8b;
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --border-color: #000000;
     --card-bg: #ffffff;
-    --highlight: #dbeafe;
+    --highlight: #f5f5f5;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body {
-    line-height: 1.6;
+    line-height: 1.8;
     color: var(--text-color);
     background-color: var(--bg-color);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
 .container {
@@ -30,87 +33,80 @@ body {
 
 /* Navigation */
 nav {
-    background-color: var(--card-bg);
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    padding: 1rem 0;
-    margin-bottom: 2rem;
+    background-color: transparent;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 .nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: block;
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 1.2rem;
+    font-weight: bold;
     color: var(--text-color);
     text-decoration: none;
-    letter-spacing: -0.025em;
+    display: block;
+    margin-bottom: 0.5rem;
 }
 
 .nav-links {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .nav-links a {
-    text-decoration: none;
-    color: var(--text-color);
-    font-weight: 500;
-    transition: color 0.2s;
-    font-size: 0.95rem;
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
+    text-decoration: underline;
+    color: var(--primary-color);
+    font-size: 1rem;
 }
 
 .nav-links a:hover {
-    background-color: var(--highlight);
-    color: var(--primary-color);
+    color: var(--hover-color);
 }
 
 /* Content Sections */
 section {
-    padding: 4rem 0;
-    background-color: var(--card-bg);
+    padding: 0;
+    background-color: transparent;
     margin: 2rem 0;
-    border-radius: 12px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 /* Typography */
 h1 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: var(--text-color);
-    font-weight: 700;
-    letter-spacing: -0.025em;
-    margin-bottom: 1rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.5rem;
 }
 
 h2 {
-    font-size: 1.875rem;
+    font-size: 1.2rem;
     color: var(--text-color);
-    font-weight: 700;
-    letter-spacing: -0.025em;
-    margin-bottom: 0.5rem;
+    font-weight: bold;
+    margin: 2rem 0 1rem 0;
 }
 
 h3 {
-    font-size: 1.25rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: bold;
     color: var(--text-color);
-    margin-bottom: 0.75rem;
+    margin: 1.5rem 0 0.5rem 0;
+}
+
+p {
+    margin: 1rem 0;
 }
 
 /* Links */
 a {
     color: var(--primary-color);
-    text-decoration: none;
-    transition: color 0.2s;
+    text-decoration: underline;
 }
 
 a:hover {
@@ -119,112 +115,105 @@ a:hover {
 
 /* About Section */
 .about-content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 1.5rem;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .about-header {
-    text-align: center;
-    margin-bottom: 2.5rem;
+    text-align: left;
+    margin-bottom: 2rem;
 }
 
 .subtitle {
-    font-size: 1.2rem;
-    color: #64748b;
-    margin-bottom: 2rem;
+    font-size: 1rem;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
 }
 
 /* Company Tags */
 .company-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.8rem;
-    margin: 1.5rem 0;
+    gap: 1rem;
+    margin: 1rem 0;
 }
 
 .company-tag {
-    background: var(--highlight);
-    padding: 0.5rem 1rem;
-    border-radius: 15px;
-    font-size: 0.95rem;
+    background: transparent;
+    padding: 0;
+    font-size: 1rem;
     color: var(--primary-color);
-    text-decoration: none;
-    transition: background-color 0.2s;
+    text-decoration: underline;
 }
 
 .company-tag:hover {
-    background: #bfdbfe;
+    color: var(--hover-color);
 }
 
-/* Projects Grid */
+/* Projects Grid (lean list mode) */
 .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1.5rem;
-    padding: 1.5rem;
+    display: block;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
 .project-card {
-    background: var(--card-bg);
-    border: 1px solid var(--border-color);
-    border-radius: 12px;
-    padding: 1.5rem;
-    transition: all 0.3s ease;
+    background: transparent;
+    border: none;
+    padding: 0.75rem 0;
+    margin: 0;
 }
 
-.project-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+.project-card h3 {
+    display: inline;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    font-weight: bold;
 }
 
-/* Project Links */
+.project-description {
+    display: inline;
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
 .link-group {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-top: 1rem;
+    display: inline;
+    margin-left: 0.5rem;
 }
 
-.project-link {
-    display: inline-flex;
-    align-items: center;
-    padding: 0.375rem 0.75rem;
-    background-color: var(--highlight);
-    color: var(--primary-color);
-    text-decoration: none;
-    border-radius: 6px;
-    font-size: 0.875rem;
-    font-weight: 500;
-    transition: all 0.2s;
-}
-
-.project-link:hover {
-    background-color: #bfdbfe;
-}
-
-/* Tags */
 .tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin: 0.5rem 0;
+    display: none;
 }
 
 .tag {
-    background-color: #f1f5f9;
-    padding: 0.25rem 0.75rem;
-    border-radius: 9999px;
-    font-size: 0.75rem;
-    color: #475569;
+    display: none;
 }
+
+.project-link {
+    display: inline;
+    padding: 0;
+    background: transparent;
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+/* Cleaned up duplicate styles removed */
 
 /* Erdos Number */
 .erdos {
     display: inline-block;
-    background: var(--highlight);
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
+    background: transparent;
+    padding: 0;
+    margin-top: 0.5rem;
+}
+
+.erdos-number {
+    display: inline-block;
+    margin-right: 1.5rem;
     margin-top: 1rem;
 }
 
@@ -234,96 +223,95 @@ a:hover {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .nav-container {
-        flex-direction: column;
-        gap: 1rem;
+    body {
+        padding: 1rem;
     }
 
     .nav-links {
         flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .projects-grid {
-        grid-template-columns: 1fr;
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
 
     h2 {
-        font-size: 1.5rem;
-    }
-
-    section {
-        padding: 2rem 0;
-    }
-
-    .company-list {
-        justify-content: center;
+        font-size: 1.1rem;
     }
 }
 
 /* Section Headers */
 .section-header {
-    padding: 2rem 3rem;  /* Keep padding but remove box */
-    margin: 3rem 0 2rem;
+    padding: 0;
+    margin: 2rem 0 1rem;
 }
 
-/* Remove the box but keep some separation */
-section {
-    margin: 4rem 0;
-    padding: 0;  /* Remove section padding */
-    background-color: transparent;  /* Remove background */
-    box-shadow: none;  /* Remove shadow */
-    border-radius: 0;  /* Remove border radius */
-}
-
-/* Main title (Research Projects) */
 .section-header h1 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: var(--text-color);
-    font-weight: 700;
-    letter-spacing: -0.025em;
+    font-weight: bold;
     margin-bottom: 1rem;
-}
-
-/* Category titles (Privacy ML, etc.) */
-.section-header h2 {
-    font-size: 1.875rem;
-    color: var(--text-color);
-    font-weight: 700;
-    letter-spacing: -0.025em;
-    margin-bottom: 0.5rem;
-    border-bottom: 2px solid var(--border-color);  /* Optional: adds subtle separation */
+    border-bottom: 1px solid var(--border-color);
     padding-bottom: 0.5rem;
 }
 
-/* Project grid alignment */
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1.5rem;
-    padding: 1.5rem 3rem;
+.section-header h2 {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    font-weight: bold;
+    margin: 2rem 0 1rem;
 }
 
-/* Keep cards styled as before */
-.project-card {
-    background: var(--card-bg);
-    border: 1px solid var(--border-color);
-    border-radius: 12px;
-    padding: 1.5rem;
-    transition: all 0.3s ease;
+/* Project List Styles */
+.project-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .section-header {
-        padding: 1.5rem 2rem;
-    }
-    
-    .projects-grid {
-        padding: 1.5rem 2rem;
-    }
+.project-list li {
+    padding: 0.5rem 0;
+    line-height: 1.8;
+}
+
+.project-list strong {
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.project-list a {
+    color: var(--primary-color);
+    text-decoration: underline;
+    font-size: 1rem;
+}
+
+.project-list a:hover {
+    color: var(--hover-color);
+}
+
+/* Content section overrides */
+.content-section {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.highlight-box {
+    margin: 0;
+    padding: 0;
+}
+
+.focus-areas {
+    margin: 0;
+    padding: 0;
+}
+
+.focus-areas ul {
+    margin: 1rem 0;
+    padding-left: 2rem;
+    line-height: 1.8;
+}
+
+.focus-areas li {
+    margin: 0.5rem 0;
 }
